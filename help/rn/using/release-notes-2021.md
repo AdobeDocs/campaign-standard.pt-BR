@@ -28,8 +28,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: ht
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+workflow-type: tm+mt
 source-wordcount: 4728
 ht-degree: 100%
 
@@ -457,4 +457,5 @@ Os novos recursos, melhorias e correções incluídos na próxima versão do Cam
 * Correção de um problema que impedia que a lista de perfis de teste fosse atualizada ao pesquisar perfis na pré-visualização do **Email Designer**. (CAMP-45265)
 * Correção de um problema que impedia que perfis de teste personalizados fossem exibidos na lista ao pesquisar perfis na pré-visualização do **Email Designer**. (CAMP-45589)
 * Correção de um problema que fazia com que datas não correspondentes fossem exibidas ao gerar gráficos de tendência do **Relatório de resumo da entrega**. (CAMP-45521)
+
 

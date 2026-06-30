@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
 workflow-type: tm+mt
-source-wordcount: 4540
+source-wordcount: 4623
 ht-degree: 8%
 
 ---
@@ -423,8 +423,7 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Otimização manual do tempo de envio<br /> </td> 
-   <td> Agora é possível definir manualmente um tempo de envio personalizado por recipient, no nível do delivery ou usando um fluxo de trabalho. <br /> Duas novas opções estão disponíveis: <br /> 
-    <ul> 
+   <td> Agora é possível definir manualmente um tempo de envio personalizado por recipient, no nível do delivery ou usando um fluxo de trabalho. <br /> Duas novas opções estão disponíveis: <br /> <ul> 
      <li> Todos os recipients recebem a mensagem levando em conta o fuso horário. </li> 
      <li> Cada recipient recebe a mensagem em uma data e hora calculadas definidas por uma fórmula. </li> 
     </ul> Para obter mais informações, consulte a <a href="../../sending/using/optimizing-the-sending-time.md">documentação detalhada</a>.<br /> </td> 
@@ -442,8 +441,7 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Fluxos de Trabalho: nova atividade de Sinal<br /> </td> 
-   <td> Acione um fluxo de trabalho a partir de outro fluxo de trabalho usando a nova atividade <span class="uicontrol">Signal</span>.<br /> Com a capacidade de iniciar um fluxo de trabalho a partir de outro, agora você pode oferecer suporte a jornadas de clientes mais complexas. É possível monitorar melhor as jornadas do cliente e reagir caso haja problemas.<br /> Várias atividades de fluxo de trabalho foram atualizadas:<br /> 
-    <ul> 
+   <td> Acione um fluxo de trabalho a partir de outro fluxo de trabalho usando a nova atividade <span class="uicontrol">Sinal</span>.<br /> Com a capacidade de iniciar um workflow a partir de outro, agora é possível oferecer suporte a jornadas mais complexas do cliente. É melhor monitorar as jornadas do cliente e reagir em caso de problemas.<br /> Várias atividades de fluxo de trabalho foram atualizadas:<br /> <ul> 
      <li> Atividade <span class="uicontrol">End</span>: uma nova guia permite que um fluxo de trabalho seja acionado após a execução dessa atividade. </li> 
      <li> Atividade <span class="uicontrol">Update data</span>: use a nova transição de saída vazia para adicionar uma atividade <strong>End</strong> que aciona outro fluxo de trabalho. Transições de saída vazias não transferem dados e não consomem espaço desnecessário no sistema </li> 
     </ul> Para obter mais informações, consulte a <a href="../../automating/using/external-signal.md">documentação detalhada</a>.<br /> </td> 
@@ -498,16 +496,14 @@ _Fluxos de trabalho_
  <tbody> 
   <tr> 
    <td> Exportação de logs para relatórios externos<br /> </td> 
-   <td> Exportar logs, como logs de delivery e rastreamento, para processá-los em seus relatórios preferidos ou nas ferramentas de BI. Você pode usar fluxos de trabalho simples com consultas incrementais para automatizar exportações regulares de novos logs.<br /> Além da disponibilidade de recursos de log do seletor de recursos, foram feitos aprimoramentos nas atividades de <a href="../../automating/using/incremental-query.md">Consulta incremental</a> e <a href="../../automating/using/extract-file.md">Extrair arquivo</a>:<br /> 
-    <ul> 
+   <td> Exportar logs, como logs de delivery e rastreamento, para processá-los em seus relatórios preferidos ou nas ferramentas de BI. Você pode usar fluxos de trabalho simples com consultas incrementais para automatizar exportações regulares de novos logs.<br /> Além da disponibilidade dos recursos de log do seletor de recursos, foram feitos aprimoramentos nas atividades de <a href="../../automating/using/incremental-query.md">Consulta incremental</a> e <a href="../../automating/using/extract-file.md">Extrair arquivo</a>:<br /> <ul> 
      <li> <span class="uicontrol">Consulta incremental</span> agora permite usar um campo de data para recuperar dados novos ou atualizados. Anteriormente, todos os resultados de execuções anteriores eram excluídos automaticamente, mesmo que fossem atualizados desde a última execução. </li> 
      <li> <span class="uicontrol">Extrair arquivo</span> agora pode exportar rótulos para valores de enumeração em vez de IDs. </li> 
     </ul> Essas atividades estão disponíveis para administradores com acesso a todas as unidades geográficas e organizacionais.<br /> Para obter mais informações sobre exportação de logs, consulte a <a href="../../automating/using/exporting-logs.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Recursos de marketing para mensagens transacionais<br /> </td> 
-   <td> Agora os profissionais de marketing podem enviar mensagens transacionais com base nos perfis de marketing do cliente. Isso permite:<br /> 
-    <ul> 
+   <td> Agora os profissionais de marketing podem enviar mensagens transacionais com base nos perfis de marketing do cliente. Isso permite:<br /> <ul> 
      <li> Aplique regras de tipologia de marketing, como <span class="uicontrol">Endereço na inclui na lista de bloqueios do</span>. </li> 
      <li> Incluir o link de unsubscription nas mensagens. </li> 
      <li> Adicionar as mensagens transacionais aos relatórios globais da entrega. </li> 
@@ -559,4 +555,5 @@ _Integrações_
 * Correção de um problema que pode ter causado um erro ao implantar um acionador de evento no Adobe Campaign. Esse erro ocorria quando os metadados &quot;Probabilidade de retorno em 30 dias&quot; tinham sido adicionados ao acionador de Abandono no Adobe Marketing Cloud.
 * Correção de um problema que fazia com que o fluxo de trabalho técnico limpasse o campo Dimension do Target ao importar públicos do serviço principal Pessoas. Consultas subsequentes não puderam recuperar os públicos importados.
 * Correção de um problema que pode ter causado a falha da atividade **[!UICONTROL Save audience]** de um fluxo de trabalho quando a opção **[!UICONTROL Share in Adobe Marketing Cloud]** foi marcada.
+
 

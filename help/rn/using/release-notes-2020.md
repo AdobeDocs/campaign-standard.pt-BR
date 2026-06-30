@@ -39,10 +39,10 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
 workflow-type: tm+mt
-source-wordcount: 5380
-ht-degree: 94%
+source-wordcount: 5439
+ht-degree: 95%
 
 ---
 
@@ -64,8 +64,7 @@ ht-degree: 94%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Agora você pode usar <strong>Grupos de controle</strong> para medir o impacto de suas campanhas excluindo parte de seus públicos. Você poderá comparar o comportamento da população do público-alvo que recebeu a mensagem com o comportamento dos contatos que não foram direcionados. Com base nos logs de envio, você também poderá se concentrar em um grupo de controle em campanhas futuras.
-</p>
+  <td> <p>Agora você pode usar <strong>Grupos de controle</strong> para medir o impacto das campanhas excluindo parte de seus públicos-alvos. Portanto você poderá comparar o comportamento da população de destino que recebeu a mensagem com o comportamento dos contatos não atingidos. Com base nos logs de envio, você também poderá se concentrar em um grupo de controle em campanhas futuras.</p>
 <p>Para obter mais informações consulte a <a href="../../sending/using/control-group.md">documentação detalhada</a> e o <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=pt-BR">vídeo de instruções</a>.
 </p>
 </td> 
@@ -81,8 +80,7 @@ ht-degree: 94%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>O Adobe Campaign agora oferece suporte ao OAuth para autenticação na atividade de fluxo de trabalho <strong>API externa</strong>. Esse novo recurso abre a capacidade de essa atividade se comunicar com sistemas que exigem suporte para OAuth.
-</p>
+  <td> <p>Agora o Adobe Campaign oferece suporte ao OAuth para autenticação na atividade de fluxo de trabalho da <strong>API externa</strong>. Esse novo recurso abre a capacidade de essa atividade se comunicar com sistemas que exigem suporte para o OAuth.</p>
 <p>Para obter mais informações consulte a <a href="../../automating/using/external-api.md">documentação detalhada</a>.
 </p>
 </td> 
@@ -515,4 +513,5 @@ ht-degree: 94%
 * Correção de um problema que impedia a exibição de endereços na tela Sending logs ao enviar mensagens no aplicativo.
 * Correção de um problema que impedia que logs de envio de SMS fossem atualizados com o número correto de rejeições. (CAMP-38395)
 * Correção de uma abertura que permitia que as chamadas de publicação de assinaturas do aplicativo atualizassem os tokens de notificação por push. (CAMP-39273)
+
 
