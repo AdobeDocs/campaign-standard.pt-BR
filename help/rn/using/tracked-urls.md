@@ -4,11 +4,9 @@ description: Problema de assinatura de URLs rastreados
 hide: true
 exl-id: 8c2725a8-2c3a-448a-8c04-c0c2a5950574
 TQID: https://experienceleague.adobe.com/6R8s1OkdU0TWD2Qo1DnI33T-FsiV4kVNkn942k0o5-Q
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 207
 ht-degree: 100%
@@ -40,6 +38,3 @@ Quando a atualização estiver concluída, todos os links funcionarão conforme 
 >[!NOTE]
 >
 >Em caso de dúvidas sobre essas alterações, entre em contato com o [Atendimento ao cliente da Adobe](https://helpx.adobe.com/br/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
->
-
-
