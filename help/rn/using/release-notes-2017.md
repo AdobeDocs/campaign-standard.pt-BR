@@ -33,7 +33,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 4623
 ht-degree: 8%
@@ -555,5 +555,3 @@ _Integrações_
 * Correção de um problema que pode ter causado um erro ao implantar um acionador de evento no Adobe Campaign. Esse erro ocorria quando os metadados &quot;Probabilidade de retorno em 30 dias&quot; tinham sido adicionados ao acionador de Abandono no Adobe Marketing Cloud.
 * Correção de um problema que fazia com que o fluxo de trabalho técnico limpasse o campo Dimension do Target ao importar públicos do serviço principal Pessoas. Consultas subsequentes não puderam recuperar os públicos importados.
 * Correção de um problema que pode ter causado a falha da atividade **[!UICONTROL Save audience]** de um fluxo de trabalho quando a opção **[!UICONTROL Share in Adobe Marketing Cloud]** foi marcada.
-
-

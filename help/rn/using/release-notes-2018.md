@@ -33,7 +33,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: 1e34b244937569402d8fe873f6dd67f20b9a9a29
 workflow-type: tm+mt
 source-wordcount: 5477
 ht-degree: 8%
@@ -71,7 +71,7 @@ ht-degree: 8%
 
 **Outras alterações**
 
-* Há agora uma distinção nos broadlogs entre o número máximo de conexões e o número máximo de mensagens por hora. Quando os limites são atingidos, é possível saber o motivo da taxa de transferência ser limitada. Anteriormente, a mesma mensagem (‘cota atingida’) se aplicava a ambos os casos.
+* Há agora uma distinção nos broadlogs entre o número máximo de conexões e o número máximo de mensagens por hora. Quando os limites são atingidos, é possível saber o motivo da taxa de transferência ser limitada. Anteriormente, a mesma mensagem (&quot;cota atingida&quot;) se aplicava a ambos os casos.
 * Ao configurar um aplicativo para dispositivos móveis no Campaign, o usuário agora pode saber se o certificado do iOS e a chave do servidor do Android foram carregados com êxito e a data de expiração.
 
   Para obter mais informações, consulte a documentação detalhada sobre como configurar um aplicativo móvel usando o [SDK V4](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdkv4.html) e o [SDK V5](https://helpx.adobe.com/br/campaign/kb/configuring-app-sdk.html).
@@ -144,7 +144,7 @@ ht-degree: 8%
 
 **Aprimoramentos**
 
-* A integração do Adobe Campaign e do Adobe Target agora permite aproveitar o recurso [Permissões](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=pt-BR) do Target. Ao incluir uma imagem dinâmica do Adobe Target em um email, agora é possível especificar uma Propriedade do Target (código at_property).
+* A integração do Adobe Campaign e do Adobe Target agora permite que você aproveite o recurso [Permissões](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=pt-BR) do Target. Ao incluir uma imagem dinâmica do Adobe Target em um email, agora é possível especificar uma Propriedade do Target (código at_property).
 * Os recursos personalizados que têm um link de owncopy para o recurso de perfis agora são considerados pelas solicitações de acesso/exclusão de Privacidade do GDPR. Para links simples de cardinalidade 1 e links de coleção de cardinalidade N, é necessário selecionar &quot;Excluir/duplicar o registro de destino implica excluir/duplicar os registros referenciados pelo link&quot; no recurso personalizado. Para links simples de cardinalidade 0 ou 1, selecione &quot;Excluir/duplicar o registro implica excluir/duplicar o registro de destino referenciado pelo link&quot;.
 
 **Outras alterações**
@@ -285,7 +285,7 @@ ht-degree: 8%
 
 _Plataforma_
 
-* Correção de um erro que poderia impedir o processamento correto de solicitações de acesso ou exclusão do GDPR. Esse comportamento foi observado em alguns casos raros em que os dados extraídos continham um dos seguintes caracteres: &amp; &lt; > &quot; &#39;.
+* Correção de um erro que poderia impedir o processamento correto de solicitações de acesso ou exclusão do GDPR. Esse comportamento foi observado em alguns casos raros em que os dados extraídos continham um dos seguintes caracteres: `& < > " '`.
 
 _Emails, mensagens SMS e correspondência direta_
 
@@ -319,7 +319,7 @@ _Recursos personalizados_
  <tbody> 
   <tr> 
    <td> European General Data Protection Regulation (RGPD)<br /> </td> 
-   <td> O RGPD é a nova lei de privacidade da União Europeia que concilia e moderniza os requisitos de proteção de dados, entrando em efeito em 25 de Maio de 2018. O GDPR aplica-se aos clientes do Adobe Campaign que coletam dados de residentes da UE.<br /> Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), aproveitamos a oportunidade, em função do nosso papel como Processador de Dados, para incluir recursos adicionais que ajudam o Controlador de Dados a estar de acordo com determinadas solicitações do GDPR:<br /> <ul> 
+   <td> O GDPR é a nova lei de privacidade da União Europeia que adequa e moderniza os requisitos de proteção de dados, entrando em vigor em 25 de maio de 2018. O GDPR aplica-se aos clientes do Adobe Campaign que coletam dados de residentes da UE.<br /> Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), aproveitamos a oportunidade, em função do nosso papel como Processador de Dados, para incluir recursos adicionais que ajudam o Controlador de Dados a estar de acordo com determinadas solicitações do GDPR:<br /> <ul> 
      <li> Direito de acesso: permite que o Titular de dados receba uma cópia de seus dados pessoais capturados pelos Controladores de dados, possivelmente incluindo dados armazenados no Adobe Campaign. </li> 
      <li> Direito de exclusão: permite que o Titular de dados apague seus dados pessoais capturados pelos Controladores de dados, possivelmente incluindo os dados armazenados no Adobe Campaign. </li> 
     </ul> Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=pt-BR">documentação detalhada</a>.<br /> </td> 
@@ -478,7 +478,7 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextual da interface do
   </tr> 
   <tr> 
    <td> Enviar novos recursos<br /> </td> 
-   <td> Visualização das mensagens de push: visualize as notificações das mensagens de push em dispositivos iOS e Android de dentro do editor de conteúdo de notificações de mensagens de push para ver exatamente o que os destinatários verão antes de testar ou executar a entrega.<br /> Para obter mais informações, consulte a <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentação detalhada</a>.<br /> Conteúdo disponível: quando aplicativos não são abertos por longos períodos de tempo, seus dados podem se tornar obsoletos. Isso resulta na atualização ou substituição dos dados no momento em que um usuário finalmente abre o aplicativo, o que pode causar atrasos no uso do aplicativo. Com a ajuda adicional do Conteúdo disponível, os usuários do Adobe Campaign podem ativar o aplicativo para atualizar os dados em segundo plano ao enviar uma notificação por push, permitindo maior consistência e controle sobre a experiência no aplicativo de um usuário.<br /> Conteúdo variável: com a ajuda adicional do conteúdo variável, os usuários do Adobe Campaign agora podem aproveitar as extensões de aplicativos para dispositivos móveis para modificar ainda mais o conteúdo ou a apresentação de notificações de mensagens de push enviadas pelo Adobe Campaign. Por exemplo, os usuários podem aproveitar o Conteúdo Mutável para: <br /> <ul> 
+   <td> Visualização das mensagens de push: visualize as notificações das mensagens de push em dispositivos iOS e Android de dentro do editor de conteúdo de notificações de mensagens de push para ver exatamente o que os destinatários verão antes de testar ou executar a entrega.<br /> Para obter mais informações, consulte a <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentação detalhada</a>.<br /> Conteúdo disponível: quando aplicativos não são abertos por longos períodos de tempo, seus dados podem se tornar obsoletos. Isso resulta na atualização ou substituição dos dados no momento em que um usuário finalmente abre o aplicativo, o que pode causar atrasos no uso do aplicativo. Com o suporte adicional de Conteúdo Disponível, os usuários do Adobe Campaign podem ativar o aplicativo para atualizar os dados em segundo plano ao enviar uma notificação por push, permitindo maior consistência e controle sobre a experiência no aplicativo de um usuário.<br /> Conteúdo variável: com a ajuda adicional do conteúdo variável, os usuários do Adobe Campaign agora podem aproveitar as extensões de aplicativos para dispositivos móveis para modificar ainda mais o conteúdo ou a apresentação de notificações de mensagens de push enviadas pelo Adobe Campaign. Por exemplo, os usuários podem aproveitar o Conteúdo Mutável para: <br /> <ul> 
      <li> descriptografar dados que foram entregues em formato criptografado </li> 
      <li> baixar imagens ou outros arquivos de mídia e adicioná-los como anexos a uma notificação </li> 
      <li> alterar o texto do corpo ou do título de uma notificação </li> 
@@ -487,7 +487,7 @@ Alguns problemas podem ocorrer ao usar links de ajuda contextual da interface do
   </tr> 
   <tr> 
    <td> Entregas otimizadas por fuso horário<br /> </td> 
-   <td> Programe notificações por email, SMS e por push recorrentes para serem entregues em um dia/hora específico no fuso horário de cada recipient, garantindo que suas mensagens sejam entregues na hora certa, sem configurar vários deliveries. <br /> Para obter mais informações, consulte a <a href="../../automating/using/scheduler.md">documentação detalhada</a>.<br /> </td> 
+   <td> Programe notificações por email, SMS e por push recorrentes para serem entregues em um dia/hora específico no fuso horário de cada destinatário, garantindo que suas mensagens sejam entregues na hora certa, sem configurar vários deliveries. <br /> Para obter mais informações, consulte a <a href="../../automating/using/scheduler.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Acionamento da atividade de Sinal da API<br /> </td> 
@@ -537,5 +537,3 @@ _Perfis e públicos-alvo_
 * Adição de uma dica de ferramenta exibindo o número exato do resultado após a contagem da população de um query.
 * Correção de um problema que impedia um usuário de selecionar um público ou fechar a janela do seletor de público.
 * A lista de funções disponíveis no editor de expressão foi atualizada. As funções **FormatCurrency** e **ConvertCurrency** foram removidas.
-
-

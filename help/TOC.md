@@ -4,13 +4,12 @@ user-guide-title: Campaign Standard
 user-guide-description: Documentação do produto do Adobe Campaign Standard.
 title: Manual do Campaign Standard
 breadcrumb-title: Documentação do Campaign Standard
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: ht
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+workflow-type: tm+mt
 source-wordcount: '1796'
 ht-degree: 100%
 
 ---
-
 
 # Documentação do Adobe Campaign Standard {#using}
 
@@ -509,4 +508,3 @@ ht-degree: 100%
       + [Atualização dos atributos de uma unidade geográfica](api/using/updating-geographical-unit-attributes.md)
    + [Solução de problemas](api/using/troubleshooting.md)
 + [Painel de controle do Campaign](https://experienceleague.adobe.com/pt-br/docs/control-panel/using/control-panel-home)
-

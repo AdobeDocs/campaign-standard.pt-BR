@@ -8,7 +8,7 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 441
 ht-degree: 67%
@@ -56,5 +56,3 @@ Depois de ter a lista de destinatários afetados, você pode defini-los como um 
 
 * [Entender as falhas de entrega](../../sending/using/understanding-delivery-failures.md)
 * [Qualificação de email de rejeição](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
-
-
