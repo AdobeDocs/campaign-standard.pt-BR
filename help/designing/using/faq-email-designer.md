@@ -8,16 +8,12 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
-TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz---s3NRdSbweBFhTAMgSw4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz%2D%2D%2Ds3NRdSbweBFhTAMgSw4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 116306c9479f7094cb2cb78b7fe2df31a508c9cd
 workflow-type: tm+mt
 source-wordcount: 445
 ht-degree: 7%
@@ -43,8 +39,7 @@ Você pode adicionar preenchimento usando a navegação estrutural do HTML.
    ![](assets/do-not-localize/breadcrumb.png)
 
 1. Clique no elemento que deseja adicionar um preenchimento.
-1. Clique na tag principal na navegação estrutural do HTML.
-Agora você pode adicionar um preenchimento a este elemento.
+1. Clique na tag principal na navegação estrutural do HTML.Agora você pode adicionar um preenchimento a este elemento.
 
 ## Posso importar conteúdo do HTML para o Designer de email?
 
@@ -54,8 +49,7 @@ Para obter mais informações, consulte [Modo de compatibilidade](../../designin
 
 ## Como crio meu primeiro conteúdo de e-mail?
 
-Primeiro de tudo, crie um email a partir da página inicial.
-Em seguida, para adicionar conteúdo a um email, é necessário adicionar um componente de estrutura e inserir um componente de conteúdo nele.
+Primeiro de tudo, crie um email a partir da página inicial.Em seguida, para adicionar conteúdo a um email, é necessário adicionar um componente de estrutura e inserir um componente de conteúdo nele.
 
 Para obter mais informações, consulte [Criando um email do zero](../../designing/using/quick-start.md#from-scratch-email)
 
