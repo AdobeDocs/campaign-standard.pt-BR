@@ -20,10 +20,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e6bc6cdc81a89cded1fa59e6a22c5a3bfaf84363
-workflow-type: ht
-source-wordcount: 227
-ht-degree: 100%
+source-git-commit: 437c3f380f03b901309160572c0ee1dda0369225
+workflow-type: tm+mt
+source-wordcount: 584
+ht-degree: 95%
 
 ---
 
@@ -94,21 +94,21 @@ Aprenda como compartilhar dados entre o Campaign e a Real-time Customer Data Pla
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>Configuração<br/>Administração</strong><br/><a href="administration/using/about-channel-configuration.md">Configurar canais</a> – <a href="administration/using/about-campaign-standard-settings.md">Configurações do Campaign Standard</a> – <a href="administration/using/about-access-management.md">Gerenciamento de acesso</a> – <a href="administration/using/monitoring-guidelines.md">Orientações de monitoramento</a> – <a href="integrating/using/get-started-campaign-integrations.md">Integrar o Campaign a outras soluções</a>
+      <strong>Configuração<br/>Administração</strong><br/><a href="administration/using/about-channel-configuration.md">Configurar canais</a> - <a href="administration/using/about-campaign-standard-settings.md">Configurações do Campaign Standard</a>  - <a href="administration/using/about-access-management.md">Gerenciamento de acesso</a> - <a href="administration/using/monitoring-guidelines.md">Orientações de monitoramento</a> - <a href="integrating/using/get-started-campaign-integrations.md">Integrar o Campaign a outras soluções</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>Canais de comunicação</strong><br/><a href="channels/using/about-emails.md">Email</a> – <a href="channels/using/about-sms-messages.md">SMS</a> – <a href="channels/using/about-in-app-messaging.md">In-app</a> – <a href="channels/using/about-push-notifications.md">Notificações por push</a> – <a href="channels/using/about-direct-mail.md">Correspondência direta</a> – <a href="channels/using/about-direct-mail.md">Web</a>
+      <strong>Canais de comunicação</strong><br/><a href="channels/using/about-emails.md">Email</a> - <a href="channels/using/about-sms-messages.md">SMS</a> - <a href="channels/using/about-in-app-messaging.md">In-app</a> - <a href="channels/using/about-push-notifications.md">Notificações por push</a> - <a href="channels/using/about-direct-mail.md">Correspondência direta</a> - <a href="channels/using/about-direct-mail.md">Web</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>Gestão de conteúdo</strong><br/><a href="sending/using/design-and-personalize.md">Criar conteúdo personalizado</a> – <a href="sending/using/sending-proofs.md">Enviar provas</a> – <a href="sending/using/previewing-messages.md">Visualizar entregas</a> – <a href="sending/using/use-templates.md">Usar modelos</a>
+      <strong>Gestão de conteúdo</strong><br/><a href="sending/using/design-and-personalize.md">Criar conteúdo personalizado</a> - <a href="sending/using/sending-proofs.md">Enviar provas</a> - <a href="sending/using/previewing-messages.md">Visualizar entregas</a> - <a href="sending/using/use-templates.md">Usar modelos</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
-      <strong>Perfis e públicos-alvo</strong><br/><a href="audiences/using/about-audiences.md">Públicos-alvo</a> – <a href="audiences/using/about-profiles.md">Perfis</a> – <a href="audiences/using/about-subscriptions.md">Assinaturas</a> – <a href="audiences/using/about-opt-in-and-opt-out-in-campaign.md">Aceitação e recusa</a>
+      <strong>Perfis e públicos-alvo</strong><br/><a href="audiences/using/about-audiences.md">Públicos-alvo</a> - <a href="audiences/using/about-profiles.md">Perfis</a> - <a href="audiences/using/about-subscriptions.md">Assinaturas</a> - <a href="audiences/using/about-opt-in-and-opt-out-in-campaign.md">Aceitação e recusa</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-data.svg" width="35px"><br/>
@@ -121,9 +121,9 @@ Aprenda como compartilhar dados entre o Campaign e a Real-time Customer Data Pla
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Páginas úteis</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR" target="_blank">Tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/campaign-standard.html" target="_blank">Descrição do produto</a> - <a href="rn/using/deprecated-features.md">Recursos obsoletos e removidos</a> - <a href="rn/using/release-planning.md">Planejamento de lançamentoemail t</a> - <a href="administration/using/cnil-pixel-tracking.md">Orientações da CNIL sobre pixels de rastreamento de email</a>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR" target="_blank">Tutoriais</a> - <a href="https://helpx.adobe.com/br/legal/product-descriptions/campaign-standard.html" target="_blank">Descrição do produto</a> - <a href="rn/using/deprecated-features.md">Recursos obsoletos e removidos</a> - <a href="rn/using/release-planning.md">Planejamento de versão</a> - <a href="administration/using/cnil-pixel-tracking.md">Orientação da CNIL sobre pixels de rastreamento de email</a>
 </td>
 <td><strong>Recursos técnicos</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Acionadores da Experience Cloud</a> - <a href="api/using/get-started-apis.md">APIs do Campaign</a> - <a href="https://helpx.adobe.com/br/campaign/kb/acs-article-list.html" target="blank">Notas técnicas</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR" target="_blank">Documentação do painel de controle</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=pt-BR">Lista de mensagens de erro</a>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Acionadores da Experience Cloud</a> - <a href="api/using/get-started-apis.md">APIs do Campaign</a> - <a href="https://helpx.adobe.com/br/campaign/kb/acs-article-list.html" target="blank">Notas técnicas</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=pt-BR" target="_blank">Documentação do Painel de Controle</a>
 </td>
 </tr></table>
