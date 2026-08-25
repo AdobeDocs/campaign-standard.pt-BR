@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: a86fd995b57d9c0e672611d99a3063a2baab15db
-workflow-type: ht
-source-wordcount: '7650'
+source-git-commit: 437c3f380f03b901309160572c0ee1dda0369225
+workflow-type: tm+mt
+source-wordcount: '7568'
 ht-degree: 100%
 
 ---
@@ -452,8 +452,6 @@ Integração do Microsoft Dynamics 365 (GA) - [Leia mais](../../integrating/usin
 
 **Outras atualizações de documentação incluídas na versão**
 
-A lista de mensagens de erro para o Adobe Campaign foi atualizada. [Leia mais](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=pt-BR)
-
 O guia de introdução ao RGPD foi melhorado e aprimorado. Agora se trata uma documentação de gerenciamento de privacidade, incluindo o RGPD e o CCPA. [Leia mais](https://helpx.adobe.com/content/help/br/campaign/kb/campaign-privacy.html)
 
 Um novo gráfico que apresenta o processo de publicação de mensagens transacionais foi adicionado. [Leia mais](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
@@ -534,8 +532,6 @@ Uma nova seção sobre atualizações recomendadas do Designer de email foi adic
 
 Uma nova seção sobre práticas recomendadas do fluxo de trabalho foi adicionada. [Leia mais](../../automating/using/best-practices-workflows.md)
 
-A lista de mensagens de erro do Campaign Standard e do Campaign Classic foi atualizada. [Leia mais](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=pt-BR)
-
 Um aviso na documentação de recursos personalizados foi adicionado. Recomendamos o uso de no máximo 30 caracteres para IDs de recursos personalizados. Isso também se aplica a campos de recursos personalizados, chaves, índices e links. [Leia mais](../../developing/using/creating-or-extending-the-resource.md)
 
 ## Jun - Jul de 2019 {#doc-updates-2019}
@@ -545,8 +541,6 @@ Uma nova página sobre limitações de páginas de destino foi adicionada. [Leia
 Um caso de uso sobre como chamar um perfil usando uma chave de identificação composta foi adicionado. [Leia mais](../../developing/using/uc-calling-resource-id-key.md)
 
 Uma recomendação foi adicionada sobre o uso de entregas recorrentes sem período de agregação ao chamar um fluxo de trabalho com parâmetros. [Leia mais](../../automating/using/calling-a-workflow-with-external-parameters.md)
-
-A lista de mensagens de erro do Campaign Standard e do Campaign Classic foi atualizada. [Leia mais](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=pt-BR)
 
 Um aviso na documentação de recursos personalizados foi adicionado. Recomendamos o uso de no máximo 30 caracteres para IDs de recursos personalizados. Isso também se aplica a campos de recursos personalizados, chaves, índices e links. [Leia mais](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -592,7 +586,7 @@ O guia de Automatização foi atualizado com links para atividades de fluxo de t
 
 A seção Cálculo de indicadores para relatórios dinâmicos foi atualizada. [Leia mais](../../reporting/using/indicator-calculation.md)
 
-A tabela de compatibilidade de relatórios dinâmicos foi adicionada para um melhor entendimento da compatibilidade entre dimensões e métricas. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=pt-BR)
+A tabela de compatibilidade de relatórios dinâmicos foi adicionada para um melhor entendimento da compatibilidade entre dimensões e métricas. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 A lista de funções para fluxos de trabalho foi atualizada. [Leia mais](../../automating/using/list-of-functions.md)
 
@@ -653,8 +647,6 @@ Foram adicionadas informações sobre como vincular recursos personalizados. [Le
 Uma nova nota técnica foi adicionada sobre como exibir uma imagem de uma notificação por push do Adobe Campaign Standard. [Leia mais](../../administration/using/image-push-notification.md)
 
 Uma nova nota técnica sobre implementação do rastreamento de notificação por push foi adicionada. [Leia mais](../../administration/using/push-tracking.md)
-
-A lista de mensagens de erro do Campaign Standard e do Campaign Classic foi atualizada. [Leia mais](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=pt-BR)
 
 A documentação de integração do Triggers com o Campaign foi atualizada. [Leia mais](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -870,7 +862,7 @@ A atividade **[!UICONTROL Subscription Services]** foi atualizada para ser compa
 
 Adicionado um caso de uso passo a passo sobre como preparar uma entrega. [Leia mais](../../sending/using/preparing-the-send.md)
 
-A seção que inclui a lista de autorizações foi retirada. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=pt-BR) (PDF).
+A seção que inclui a lista de autorizações foi retirada. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 Um caso de uso passo a passo foi adicionado sobre como usar a resposta automática do SMS. [Leia mais](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1042,7 +1034,7 @@ Uma nova nota técnica agora está disponível: &quot;Integração do SDK móvel
 
 Foram adicionadas instruções para configurar a integração do serviço principal do People ou Audience Manager com o Adobe Campaign. [Leia mais](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-A tabela de autorizações foi revisada para esclarecer melhor a função de certos cargos. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=pt-BR)
+A tabela de autorizações foi revisada para esclarecer melhor a função de certos cargos. [Leia mais](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Atualização dos links de ajuda contextual disponíveis diretamente do Adobe Campaign.
 
