@@ -6,8 +6,8 @@ content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 6%
+source-wordcount: '789'
+ht-degree: 9%
 
 ---
 
@@ -86,7 +86,7 @@ Esses contatos ficam visíveis na Lista de perfis e podem ser direcionados em ca
 
 >[!NOTE]
 >
->Observe que o conector Campaign Standard-Microsoft Dynamics 365 está atualmente com a disponibilidade limitada e está sujeito a várias limitações, detalhadas na documentação.
+>Observe que o conector Campaign Standard-Microsoft Dynamics 365 está atualmente com a Disponibilidade limitada e está sujeito a várias limitações, detalhadas na documentação.
 
 **Leia mais**
 
@@ -99,7 +99,7 @@ As APIs do Campaign Standard permitem executar operações para atualizar o banc
 
 >[!CAUTION]
 >
->Antes de executar a criação em massa ou atualização de perfis por meio de chamadas de API, verifique as limitações de escala correspondentes ao seu contrato de licença. Para obter mais informações, consulte [esta página](https://helpx.adobe.com/br/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Antes de executar a criação em massa ou atualização de perfis por meio de chamadas de API, verifique as limitações de escala correspondentes ao seu contrato de licença. Para obter mais informações, consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
 **Leia mais**
 
@@ -116,14 +116,14 @@ Graças aos workflows e ao editor de query, você pode construir públicos-alvo 
 
 **Leia mais**
 
-* [Sobre públicos](../../audiences/using/about-audiences.md)
-* [Criação de públicos](../../audiences/using/creating-audiences.md)
+* [Sobre públicos-alvos](../../audiences/using/about-audiences.md)
+* [Criação de públicos-alvos](../../audiences/using/creating-audiences.md)
 
 ## Gerenciamento de privacidade {#privacy-management}
 
 <img width="60px" alt="condições" src="assets/icon_privacy.svg"/>
 
-O GDPR é a nova lei de privacidade da União Europeia que adequa e moderniza os requisitos de proteção de dados. O GDPR se aplica aos clientes do Adobe Campaign que coletam dados de residentes da UE. Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), aproveitamos a oportunidade, em função da nossa função de Processador de dados, para incluir recursos adicionais que ajudam o Controlador de dados a estar de acordo com determinadas solicitações do GDPR.
+O GDPR é a nova lei de privacidade da União Europeia que adequa e moderniza os requisitos de proteção de dados. O RGPD aplica-se aos clientes do Adobe Campaign que coletam dados de residentes da UE. Além dos recursos de privacidade já disponíveis no Adobe Campaign (incluindo gerenciamento de consentimento, configurações de retenção de dados e funções de usuário), aproveitamos a oportunidade, em função da nossa função de Processador de dados, para incluir recursos adicionais que ajudam o Controlador de dados a estar de acordo com determinadas solicitações do GDPR.
 
 Consulte [esta seção](../../start/using/privacy.md) para saber mais sobre as ferramentas e funcionalidades que a Adobe Campaign fornece para ajudá-lo a se tornar compatível com o GDPR.
 
