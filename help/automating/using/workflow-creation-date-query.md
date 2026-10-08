@@ -13,17 +13,18 @@ exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 TQID: https://experienceleague.adobe.com/qkMV-OW4cYN-u6R3PYn9kdMt7DgIgxA8WTsDhvLIzJw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 source-git-commit: 2fe8bfb2bc8d0266bea52504feffb7b11f481b91
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 32%
-
+source-wordcount: '368'
+ht-degree: 37%
 ---
-
 # Criar entregas na data de criação de perfis {#creation-date-query}
 
 Você pode enviar uma oferta por email no aniversário da criação do perfil do cliente.
@@ -102,7 +103,7 @@ A consulta final exibe:
 1. Para criar o layout do email, clique em **[!UICONTROL Email Designer]**.
 1. Insira elementos ou selecione um modelo.
 1. Personalize o email usando campos e links.
-Para obter mais informações, consulte [criando um email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+Para obter mais informações, consulte [Design de email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Clique em **[!UICONTROL Preview]** para verificar o layout.
 1. Clique em **[!UICONTROL Save]**.
 
