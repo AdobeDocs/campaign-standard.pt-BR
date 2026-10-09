@@ -13,17 +13,18 @@ exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
 TQID: https://experienceleague.adobe.com/FmSP-ecHeXM-ozitQoL684ZAQC0tbuj3vprW06znCUw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: 315
-ht-degree: 43%
-
+source-wordcount: '321'
+ht-degree: 42%
 ---
-
 # Fluxo de trabalho de redirecionamento enviando um novo delivery para não abridores{#retargeting-delivery-to-non-openers}
 
 Você pode enviar um email para os clientes e, em seguida, um SMS para aqueles que não abriram o email.

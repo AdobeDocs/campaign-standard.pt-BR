@@ -13,17 +13,18 @@ exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
 TQID: https://experienceleague.adobe.com/JWuP-ztPWX--nU-tPpPYUrwL-FsEKTJqdWX1KByF-80
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: 270
+source-wordcount: '270'
 ht-degree: 80%
-
 ---
-
 # Segmentação no local {#segmentation-on-location}
 
 Você pode enviar um email de direcionamento para clientes com ofertas em suas lojas locais.

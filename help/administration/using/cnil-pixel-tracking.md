@@ -9,9 +9,7 @@ source-git-commit: 75f1f4ad8f7173f4601c9cff1ea93bf4092f274d
 workflow-type: tm+mt
 source-wordcount: '1081'
 ht-degree: 0%
-
 ---
-
 
 # Noções básicas sobre a orientação atualizada da CNIL sobre pixels de rastreamento de email {#cnil-pixel-tracking}
 
