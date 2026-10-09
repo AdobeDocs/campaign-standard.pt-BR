@@ -12,19 +12,21 @@ exl-id: 10bd4e4f-78b4-4318-bded-4cf33b466f1d
 TQID: https://experienceleague.adobe.com/1uLedUXL9KXfGfdTv05T6PVQGGcgy3orf2l6TgIi4Gw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: 690eddf477a139564babaa4e39cc66d095371480
 workflow-type: tm+mt
-source-wordcount: 310
+source-wordcount: '310'
 ht-degree: 97%
-
 ---
-
 # Gerenciamento de tipologias {#managing-typologies}
 
 ## Sobre tipologias {#about-typologies}
