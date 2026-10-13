@@ -6,15 +6,14 @@ content-type: reference
 topic-tags: campaign-standard-apis
 source-git-commit: 210289d44f0ad0ebf0b2654f6e9795adad7dd458
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
 
-
 # Sobre o gerenciamento de privacidade {#about-privacy-management}
 
-As APIs Campaign Standard fornecem recursos que permitem o processo automático de solicitações relacionadas a regulamentos de privacidade, como GDPR e CCPA.
+As APIs do Campaign Standard fornecem recursos que permitem o processo automático de solicitações relacionadas a regulamentos de privacidade, como GDPR e CCPA.
 
 As ações que você pode executar são as seguintes:
 
