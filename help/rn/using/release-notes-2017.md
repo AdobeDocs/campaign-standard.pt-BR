@@ -8,38 +8,57 @@ exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 TQID: https://experienceleague.adobe.com/o3S2hQizbgi5V-8uEzd4UsVZslopMk6BlpCy-DXESUQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: bb6c4d97-79f4-412c-a764-b541e9f9facd
+    internal-label: Points of Interest
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+    internal-label: Dreamweaver integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
-source-wordcount: 4623
+source-wordcount: '4623'
 ht-degree: 8%
-
 ---
-
 # Notas de versão de 2017{#release-notes}
 
 ## Versão 17.10 - Outubro de 2017 {#release-17-10-october-2017}
@@ -423,7 +442,8 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Otimização manual do tempo de envio<br /> </td> 
-   <td> Agora é possível definir manualmente um tempo de envio personalizado por recipient, no nível do delivery ou usando um fluxo de trabalho. <br /> Duas novas opções estão disponíveis: <br /> <ul> 
+   <td> Agora é possível definir manualmente um tempo de envio personalizado por recipient, no nível do delivery ou usando um fluxo de trabalho. <br /> Duas novas opções estão disponíveis: <br /> 
+    <ul> 
      <li> Todos os recipients recebem a mensagem levando em conta o fuso horário. </li> 
      <li> Cada recipient recebe a mensagem em uma data e hora calculadas definidas por uma fórmula. </li> 
     </ul> Para obter mais informações, consulte a <a href="../../sending/using/optimizing-the-sending-time.md">documentação detalhada</a>.<br /> </td> 
@@ -441,7 +461,8 @@ _Notificações por push_
   </tr> 
   <tr> 
    <td> Fluxos de Trabalho: nova atividade de Sinal<br /> </td> 
-   <td> Acione um fluxo de trabalho a partir de outro fluxo de trabalho usando a nova atividade <span class="uicontrol">Sinal</span>.<br /> Com a capacidade de iniciar um workflow a partir de outro, agora é possível oferecer suporte a jornadas mais complexas do cliente. É melhor monitorar as jornadas do cliente e reagir em caso de problemas.<br /> Várias atividades de fluxo de trabalho foram atualizadas:<br /> <ul> 
+   <td> Acione um fluxo de trabalho a partir de outro fluxo de trabalho usando a nova atividade <span class="uicontrol">Sinal</span>.<br /> Com a capacidade de iniciar um workflow a partir de outro, agora é possível oferecer suporte a jornadas mais complexas do cliente. É melhor monitorar as jornadas do cliente e reagir em caso de problemas.<br /> Várias atividades de fluxo de trabalho foram atualizadas:<br /> 
+    <ul> 
      <li> Atividade <span class="uicontrol">End</span>: uma nova guia permite que um fluxo de trabalho seja acionado após a execução dessa atividade. </li> 
      <li> Atividade <span class="uicontrol">Update data</span>: use a nova transição de saída vazia para adicionar uma atividade <strong>End</strong> que aciona outro fluxo de trabalho. Transições de saída vazias não transferem dados e não consomem espaço desnecessário no sistema </li> 
     </ul> Para obter mais informações, consulte a <a href="../../automating/using/external-signal.md">documentação detalhada</a>.<br /> </td> 
@@ -496,14 +517,16 @@ _Fluxos de trabalho_
  <tbody> 
   <tr> 
    <td> Exportação de logs para relatórios externos<br /> </td> 
-   <td> Exportar logs, como logs de delivery e rastreamento, para processá-los em seus relatórios preferidos ou nas ferramentas de BI. Você pode usar fluxos de trabalho simples com consultas incrementais para automatizar exportações regulares de novos logs.<br /> Além da disponibilidade dos recursos de log do seletor de recursos, foram feitos aprimoramentos nas atividades de <a href="../../automating/using/incremental-query.md">Consulta incremental</a> e <a href="../../automating/using/extract-file.md">Extrair arquivo</a>:<br /> <ul> 
+   <td> Exportar logs, como logs de delivery e rastreamento, para processá-los em seus relatórios preferidos ou nas ferramentas de BI. Você pode usar fluxos de trabalho simples com consultas incrementais para automatizar exportações regulares de novos logs.<br /> Além da disponibilidade dos recursos de log do seletor de recursos, foram feitos aprimoramentos nas atividades de <a href="../../automating/using/incremental-query.md">Consulta incremental</a> e <a href="../../automating/using/extract-file.md">Extrair arquivo</a>:<br /> 
+    <ul> 
      <li> <span class="uicontrol">Consulta incremental</span> agora permite usar um campo de data para recuperar dados novos ou atualizados. Anteriormente, todos os resultados de execuções anteriores eram excluídos automaticamente, mesmo que fossem atualizados desde a última execução. </li> 
      <li> <span class="uicontrol">Extrair arquivo</span> agora pode exportar rótulos para valores de enumeração em vez de IDs. </li> 
     </ul> Essas atividades estão disponíveis para administradores com acesso a todas as unidades geográficas e organizacionais.<br /> Para obter mais informações sobre exportação de logs, consulte a <a href="../../automating/using/exporting-logs.md">documentação detalhada</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Recursos de marketing para mensagens transacionais<br /> </td> 
-   <td> Agora os profissionais de marketing podem enviar mensagens transacionais com base nos perfis de marketing do cliente. Isso permite:<br /> <ul> 
+   <td> Agora os profissionais de marketing podem enviar mensagens transacionais com base nos perfis de marketing do cliente. Isso permite:<br /> 
+    <ul> 
      <li> Aplique regras de tipologia de marketing, como <span class="uicontrol">Endereço na inclui na lista de bloqueios do</span>. </li> 
      <li> Incluir o link de unsubscription nas mensagens. </li> 
      <li> Adicionar as mensagens transacionais aos relatórios globais da entrega. </li> 
