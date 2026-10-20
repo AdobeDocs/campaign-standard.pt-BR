@@ -87,7 +87,7 @@ Fornecer **links de unsubscription** em suas mensagens permitirá que Perfis sej
 
 >[!IMPORTANT]
 >
->É necessário respeitar a [política de uso aceitável do Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
+>É necessário respeitar a [política de uso aceitável do Adobe Campaign](https://www.adobe.com/br/legal/terms/aup.html).
 
 Leia mais:
 

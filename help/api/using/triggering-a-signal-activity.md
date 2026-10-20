@@ -115,7 +115,7 @@ Para acionar uma atividade de sinal, execute uma solicitação POST no url do ac
 -d    "audience":"audience",
 -d    "email":"anna.varney@mail.com",
 -d    "template":"05",
--d    "contentURL":"http://www.adobe.com",
+-d    "contentURL":"http://www.adobe.com/br",
 -d    "test":"true",
 -d    "segmentCode":"my segment",
 -d    "attribute":"2019-04-03 08:17:19.100Z"}
