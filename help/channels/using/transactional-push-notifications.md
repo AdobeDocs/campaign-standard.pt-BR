@@ -4,15 +4,23 @@ description: Saiba como enviar notificações transacionais por push com o Adobe
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-context-tags: null
+context-tags:
 feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
-TQID: https://experienceleague.adobe.com/iL7T6x6t2hi3QAw5osARvnBAqTPTXsFnLBCAq4H1B0k
+TQID: 'https://experienceleague.adobe.com/iL7T6x6t2hi3QAw5osARvnBAqTPTXsFnLBCAq4H1B0k'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,7 +30,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 690eddf477a139564babaa4e39cc66d095371480
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 3%

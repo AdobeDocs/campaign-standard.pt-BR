@@ -9,22 +9,32 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
-TQID: https://experienceleague.adobe.com/rNZ7AuSVilyEUjsV2cgu2SLCxfT693AORqR6-GF9d5E
+TQID: 'https://experienceleague.adobe.com/rNZ7AuSVilyEUjsV2cgu2SLCxfT693AORqR6-GF9d5E'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '434'
 ht-degree: 99%
-
 ---
-
 # Personalização de mensagens SMS{#personalizing-sms-messages}
 
 Os princípios para personalizar mensagens SMS são os mesmos válidos para [emails](../../designing/using/personalization.md#inserting-a-personalization-field). No entanto, você deve estar ciente das opções de transliteração, pois elas podem afetar a codificação e, portanto, o número de mensagens SMS que serão enviadas. Para obter mais informações, consulte a seção [Transliteração e comprimento do SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
@@ -36,8 +46,8 @@ Aqui, usamos um exemplo de mensagem SMS contendo campos de personalização que,
 * Para um destinatário chamado &quot;John Smith&quot;, como não existem caracteres especiais, o Adobe Campaign escolherá a codificação GSM, que autorizará até 160 caracteres por mensagem SMS. A mensagem será, portanto, enviada em uma única parte.
 * Para um destinatário chamado &quot;Raphaël Forêt&quot;, os caracteres &quot;ë&quot; e &quot;ê&quot; não podem ser codificados no GSM. Dependendo de a transliteração ter sido habilitada ou não, o Adobe Campaign poderá selecionar entre dois comportamentos:
 
-   * Se a transliteração for autorizada, as letras &quot;ë&quot; e &quot;ê&quot; serão substituídas por &quot;e&quot;, o que significa que a codificação GSM pode ser usada e, portanto, até 160 caracteres podem ser usados no SMS. Essa mensagem será enviada como uma única mensagem SMS, mas será ligeiramente alterada.
-   * Se a transliteração não estiver autorizada, o Adobe Campaign escolherá enviar a mensagem em formato binário (Unicode): portanto, todos os caracteres serão enviados como estão. Como as mensagens SMS em Unicode são limitadas a 70 caracteres, o Adobe Campaign terá que enviar a mensagem em duas partes.
+  * Se a transliteração for autorizada, as letras &quot;ë&quot; e &quot;ê&quot; serão substituídas por &quot;e&quot;, o que significa que a codificação GSM pode ser usada e, portanto, até 160 caracteres podem ser usados no SMS. Essa mensagem será enviada como uma única mensagem SMS, mas será ligeiramente alterada.
+  * Se a transliteração não estiver autorizada, o Adobe Campaign escolherá enviar a mensagem em formato binário (Unicode): portanto, todos os caracteres serão enviados como estão. Como as mensagens SMS em Unicode são limitadas a 70 caracteres, o Adobe Campaign terá que enviar a mensagem em duas partes.
 
 >[!NOTE]
 >

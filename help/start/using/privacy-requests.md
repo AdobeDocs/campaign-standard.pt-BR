@@ -8,25 +8,36 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-TQID: https://experienceleague.adobe.com/aLCKnFhj-MsnIUA0AQ-LcCAlcjqkCejKiosCGrtamJg
+TQID: 'https://experienceleague.adobe.com/aLCKnFhj-MsnIUA0AQ-LcCAlcjqkCejKiosCGrtamJg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
+subfeature_v2:
+  - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+    internal-label: Privacy
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1619
+source-wordcount: '1619'
 ht-degree: 100%
-
 ---
-
 # Gerenciar solicitações de privacidade {#privacy-requests}
 
 Para a apresentação geral sobre o Gerenciamento de privacidade, consulte [esta seção](../../start/using/privacy-management.md).
@@ -75,7 +86,7 @@ Você também pode consultar este [tutorial](https://experienceleague.adobe.com/
 
    ![](assets/privacy-namespace-label.png)
 
-1. Se quiser usar um namespace de serviço de identidade já existente, escolha **[!UICONTROL Map from Identity Namespace Service]** e selecione um namespace na lista **[!UICONTROL Identity Service Namespaces]**.
+1. Se quiser usar um namespace de serviço de identidade existente, escolha **[!UICONTROL Map from Identity Namespace Service]** e selecione um namespace na lista **[!UICONTROL Identity Service Namespaces]**.
 
    ![](assets/privacy-map-from-namespace.png)
 
@@ -101,7 +112,7 @@ Você também pode consultar este [tutorial](https://experienceleague.adobe.com/
 
 <!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. Use the **Privacy Core Service** for any GDPR, CCPA, PDPA, or LGPD Access and Delete requests.-->
 
-A Integração do Privacy Core Service permite automatizar suas solicitações de acesso a dados pessoais em um contexto de várias soluções por meio de uma única chamada JSON API. As solicitações de privacidade transmitidas pelo Privacy Core Service para todas as soluções da Experience Cloud são tratadas automaticamente pelo Campaign, por meio de um fluxo de trabalho específico.
+A Integração do Privacy Core Service permite automatizar suas solicitações de acesso a dados pessoais em um contexto de várias soluções por meio de uma única chamada de API JSON. As solicitações de privacidade transmitidas pelo Privacy Core Service para todas as soluções da Experience Cloud são tratadas automaticamente pelo Campaign, por meio de um fluxo de trabalho específico.
 
 Consulte a documentação do [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=pt-BR) para saber como criar solicitações de acesso a dados pessoais pelo Privacy Core Service.
 
@@ -189,7 +200,7 @@ Os **Direitos de privacidade do consumidor da Califórnia** (CCPA) fornecem aos 
 
 A configuração e utilização dos pedidos de acesso e exclusão são comuns. a GDPR e CCPA. Esta seção apresenta a opção de recusa da venda de dados pessoais, sendo específica ao CCPA.
 
-Além das ferramentas de [Gerenciamento de consentimento](../../start/using/privacy-management.md#consent-management) oferecidas pelo Adobe Campaign, existe a possibilidade de monitorar se o cliente optou pela não participação na venda de Informações pessoais.
+Além das ferramentas de [Gerenciamento de consentimento](../../start/using/privacy-management.md#consent-management) oferecidas pelo Adobe Campaign, você tem a possibilidade de monitorar se o consumidor recusou a venda de informações pessoais.
 
 Quando os usuários decidem, por meio de seu sistema, que não permitem que suas informações pessoais sejam vendidas para terceiros, você poderá armazenar e rastrear essas informações.
 
@@ -199,7 +210,7 @@ Quando os usuários decidem, por meio de seu sistema, que não permitem que suas
 
 >[!IMPORTANT]
 >
->É sua responsabilidade como Controlador de dados receber a solicitação do Titular de dados e rastrear os dados da solicitação para CCPA. Como provedor de tecnologia, oferecemos somente uma maneira de recusar a participação. Para obter mais informações sobre sua função como Controlador de dados, consulte [Dados pessoais e Personalidades](../../start/using/privacy.md#personal-data).
+>É sua responsabilidade como Controlador de dados receber a solicitação do Titular dos dados e rastrear as datas da solicitação para CCPA. Como provedor de tecnologia, oferecemos somente uma maneira de recusar a participação. Para obter mais informações sobre sua função como Controlador de dados, consulte [Dados pessoais e Personalidades](../../start/using/privacy.md#personal-data).
 
 ### Pré-requisito para tabelas personalizadas {#ccpa-prerequisite}
 
@@ -255,6 +266,6 @@ Você deve garantir que nunca venderá a terceiros as informações pessoais de 
 
    ![](assets/privacy-ccpa-profile-configure-list.png)
 
-1. Você pode clicar na coluna para classificar destinatários de acordo com as informações de recusa.
+1. Você pode clicar na coluna para classificar os destinatários de acordo com as informações de recusa.
 
    ![](assets/privacy-ccpa-profile-sorting.png)

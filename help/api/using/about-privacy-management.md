@@ -4,11 +4,15 @@ description: Saiba mais sobre o gerenciamento de privacidade com APIs
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-source-git-commit: 210289d44f0ad0ebf0b2654f6e9795adad7dd458
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
-
 ---
 
 # Sobre o gerenciamento de privacidade {#about-privacy-management}

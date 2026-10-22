@@ -9,23 +9,34 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-TQID: https://experienceleague.adobe.com/bbNySA5tCj7hDs3YG9AlPGgOUS42r3or0j-QhwIzXEw
+TQID: 'https://experienceleague.adobe.com/bbNySA5tCj7hDs3YG9AlPGgOUS42r3or0j-QhwIzXEw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 461
+source-wordcount: '461'
 ht-degree: 1%
-
 ---
-
 # Testar acionadores{#testing-your-triggers}
 
 As seguintes dicas de solução de problemas ajudam a resolver os problemas mais comuns que você pode encontrar ao usar Acionadores com o Adobe Campaign:
@@ -42,7 +53,7 @@ Caso contrário, entre em contato com seu executivo de conta da Adobe ou com seu
 
 Siga as etapas descritas em [Criação de um acionador mapeado no Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) para criar um acionador.
 
-Se o acionador for criado, avance para a próxima etapa. Caso contrário, significa que a conexão do ponto final do acionador falhou. Verifique se o Triggers está provisionado no Experience Cloud (Serviços de ativação). Caso contrário, entre em contato com seu executivo de conta da Adobe ou com seu parceiro de serviços profissionais. As seguintes informações são obrigatórias:
+Se o acionador for criado, avance para a próxima etapa. Caso contrário, significa que a conexão do ponto final do acionador falhou. Verifique se o Triggers está provisionado na Experience Cloud (serviços de ativação). Caso contrário, entre em contato com seu executivo de conta da Adobe ou com seu parceiro de serviços profissionais. As seguintes informações são obrigatórias:
 
 * Nome da empresa do Marketing Cloud
 * ID da organização

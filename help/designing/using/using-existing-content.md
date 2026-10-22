@@ -8,23 +8,34 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
-TQID: https://experienceleague.adobe.com/QDye5eM-hWU3DB-OqrxDLIYPDw9YlokgF0XIjvzHfgI
+TQID: 'https://experienceleague.adobe.com/QDye5eM-hWU3DB-OqrxDLIYPDw9YlokgF0XIjvzHfgI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1293
+source-wordcount: '1293'
 ht-degree: 5%
-
 ---
-
 # Criação usando conteúdo existente {#designing-using-existing-content}
 
 ## Seleção de conteúdo existente{#selecting-an-existing-content}

@@ -10,39 +10,49 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
-TQID: https://experienceleague.adobe.com/-Bmy97uF0S3O3EHS8Dsx9yQt7wKNvqijOVxhtpVL1dc
+TQID: 'https://experienceleague.adobe.com/-Bmy97uF0S3O3EHS8Dsx9yQt7wKNvqijOVxhtpVL1dc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Customer journeys
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 601
+source-wordcount: '601'
 ht-degree: 95%
-
 ---
-
 # Sinal externo{#external-signal}
 
 ## Descrição {#description}
 
 ![](assets/signal.png)
 
-A atividade **[!UICONTROL External signal]** aciona um fluxo de trabalho quando algumas condições são atendidas com êxito em outro fluxo de trabalho ou a partir de uma chamada à API REST.
+A atividade **[!UICONTROL External signal]** aciona um fluxo de trabalho quando algumas condições são atendidas com êxito em outro fluxo de trabalho ou a partir de uma chamada de API REST.
 
 ## Contexto de uso {#context-of-use}
 
 A atividade **[!UICONTROL External signal]** é usada para organizar e orquestrar diferentes processos que fazem parte da mesma jornada do cliente para fluxos de trabalho diferentes. Ele permite iniciar um fluxo de trabalho a partir de outro, permitindo oferecer suporte a jornadas de clientes mais complexas, além de poder monitorar e reagir melhor em caso de problemas.
 
-A atividade **[!UICONTROL External signal]** foi projetada para ser colocada como a primeira atividade de um fluxo de trabalho. Ela pode ser acionado a partir da atividade **[!UICONTROL End]** de outro fluxo de trabalho ou de uma chamada à API REST (para obter mais informações, consulte a [documentação sobre APIs](../../api/using/triggering-a-signal-activity.md)).
+A atividade **[!UICONTROL External signal]** foi projetada para ser colocada como a primeira atividade de um fluxo de trabalho. Ela pode ser acionado a partir da atividade **[!UICONTROL End]** de outro fluxo de trabalho ou de uma chamada de API REST (para obter mais informações, consulte a [documentação sobre APIs](../../api/using/triggering-a-signal-activity.md)).
 
 Quando acionados, os parâmetros externos podem ser definidos e estar disponíveis nas variáveis de eventos de fluxo de trabalho. O processo para chamar um fluxo de trabalho com parâmetros externos está detalhado [nesta seção](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
@@ -50,7 +60,7 @@ Quando acionados, os parâmetros externos podem ser definidos e estar disponíve
 >
 >A atividade não pode ser acionada com mais frequência do que a cada 10 minutos.
 
-Observe que uma atividade **[!UICONTROL External signal]** pode ser acionada a partir de vários eventos diferentes. Nesse caso, o evento **[!UICONTROL External signal]** é acionado assim que um dos fluxos de trabalho de origem ou uma chamada à API é executada. Não é necessário que todos os fluxos de trabalho de origem sejam concluídos.
+Observe que uma atividade **[!UICONTROL External signal]** pode ser acionada a partir de vários eventos diferentes. Nesse caso, o evento **[!UICONTROL External signal]** é acionado assim que um dos fluxos de trabalho de origem ou uma chamada de API é executada. Não é necessário que todos os fluxos de trabalho de origem sejam concluídos.
 
 **Tópicos relacionados**
 
@@ -73,7 +83,7 @@ Ao configurar um sinal externo, é importante primeiro configurar a atividade **
 
    >[!NOTE]
    >
-   >Se quiser acionar o fluxo de trabalho de destino a partir de outro fluxo de trabalho, continue com as etapas a seguir. Se quiser acionar o fluxo de trabalho de destino a partir de uma chamada à API REST, consulte a [documentação sobre APIs](../../api/using/triggering-a-signal-activity.md) para obter mais detalhes.
+   >Se quiser acionar o fluxo de trabalho de destino a partir de outro fluxo de trabalho, continue com as etapas a seguir. Se quiser acionar o fluxo de trabalho de destino a partir de uma chamada de API REST, consulte a [documentação sobre APIs](../../api/using/triggering-a-signal-activity.md) para obter mais detalhes.
 
 1. Abra o fluxo de trabalho de origem e selecione uma atividade **[!UICONTROL End]**. Se não houver uma atividade **[!UICONTROL End]** disponível, adicione uma após a última atividade de uma ramificação do fluxo de trabalho.
 
@@ -93,7 +103,7 @@ Ao configurar um sinal externo, é importante primeiro configurar a atividade **
 
 1. Salve o fluxo de trabalho de origem.
 
-Depois que a atividade **[!UICONTROL End]** do fluxo de trabalho de origem ou da chamada à API REST for executada, o fluxo de trabalho de destino será automaticamente acionado a partir da atividade **[!UICONTROL External signal]**.
+Depois que a atividade **[!UICONTROL End]** do fluxo de trabalho de origem ou da chamada de API REST for executada, o fluxo de trabalho de destino será automaticamente acionado a partir da atividade **[!UICONTROL External signal]**.
 
 >[!NOTE]
 >

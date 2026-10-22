@@ -8,24 +8,37 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-TQID: https://experienceleague.adobe.com/olwPmGMR2gMySu7Nx65g2bPvaxN6kjiRD94FyHxhg3A
+TQID: 'https://experienceleague.adobe.com/olwPmGMR2gMySu7Nx65g2bPvaxN6kjiRD94FyHxhg3A'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: f0a90a14-8ca9-484f-994e-d7ff1bead452
+    internal-label: In app messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 460
+source-wordcount: '460'
 ht-degree: 85%
-
 ---
-
 # Sobre mensagens no aplicativo{#about-in-app-messaging}
 
 As mensagens no aplicativo são um canal por meio do qual é possível exibir uma mensagem quando o usuário está ativo no aplicativo para dispositivos móveis. Esse tipo de mensagem é gratuito para notificações por push enviadas ao centro de notificações do telefone dos usuários. Para mais informações sobre o canal de notificações por push, consulte esta [seção](../../channels/using/about-push-notifications.md).
@@ -38,7 +51,7 @@ Para enviar mensagens no aplicativo para dispositivos móveis que utilizam o SDK
 
 1. No Adobe Campaign, confirme se você pode acessar o canal **[!UICONTROL In-App]**. Se não conseguir acessar esses canais, entre em contato com sua equipe de conta.
 
-1. Para aproveitar os casos de uso de publicação de conteúdo para dispositivos móveis no Adobe Campaign Standard com um aplicativo Experience Cloud SDK, um aplicativo para dispositivos móveis deve ser criado na interface da Coleção de dados e configurado no Adobe Campaign Standard. Para o guia passo a passo, consulte esta [página](../../administration/using/configuring-a-mobile-application.md).
+1. Para aproveitar os casos de uso de publicação de conteúdo para dispositivos móveis no Adobe Campaign Standard com um aplicativo da Experience Cloud SDK, um aplicativo para dispositivos móveis deve ser criado na interface da Coleção de dados e configurado no Adobe Campaign Standard. Para o guia passo a passo, consulte esta [página](../../administration/using/configuring-a-mobile-application.md).
 
 1. Depois de configurada, você pode preparar sua mensagem no aplicativo. Para obter mais informações, consulte esta [página](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 

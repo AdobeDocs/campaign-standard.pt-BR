@@ -9,22 +9,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
-TQID: https://experienceleague.adobe.com/YTcYEg46GzZ83wU8cfw8UgRbcUNzTVSwhjILIq1n6Ss
+TQID: 'https://experienceleague.adobe.com/YTcYEg46GzZ83wU8cfw8UgRbcUNzTVSwhjILIq1n6Ss'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Email marketing
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '660'
 ht-degree: 1%
-
 ---
-
 # Workflows de integração do Campaign - Microsoft Dynamics 365
 
 A página **[!UICONTROL Workflows]** lista os fluxos de trabalho técnicos e seus status.

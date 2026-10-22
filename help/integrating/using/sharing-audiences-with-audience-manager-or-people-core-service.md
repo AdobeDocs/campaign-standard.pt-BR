@@ -9,22 +9,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
-TQID: https://experienceleague.adobe.com/sMZXN72QxsfToyw4zzhtbET6DvR9W9iXy2rTy-tCH5Y
+TQID: 'https://experienceleague.adobe.com/sMZXN72QxsfToyw4zzhtbET6DvR9W9iXy2rTy-tCH5Y'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: a8512b64-d668-4084-b4f0-34baa899e306
+    internal-label: People Core Service integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Troubleshooting
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 819
+source-wordcount: '819'
 ht-degree: 30%
-
 ---
-
 # Compartilhamento de públicos com o Audience Manager ou o Serviço principal de pessoas{#sharing-audiences-with-audience-manager-or-people-core-service}
 
 ## Importação de um público-alvo {#importing-an-audience}
@@ -77,7 +87,7 @@ Ele pode ser executado em um novo fluxo de trabalho e somente por usuários cone
 
    ![](assets/aam_save_audience_segment_picker.png)
 
-   Para serem reconciliados e trocados, os registros devem ter uma ID do Adobe Experience Cloud (&quot;ID do visitante&quot; ou &quot;ID declarada&quot;). Os registros não reconciliados são ignorados ao importar e exportar públicos.
+   Para serem reconciliados e trocados, os registros devem ter uma ID da Adobe Experience Cloud (&quot;ID do visitante&quot; ou &quot;ID declarada&quot;). Os registros não reconciliados são ignorados ao importar e exportar públicos.
 
 1. Para concluir, clique na marca de seleção localizada na parte superior direita da tela.
 1. Selecione o **[!UICONTROL Shared Data Source]** correspondente.

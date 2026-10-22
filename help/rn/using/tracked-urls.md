@@ -3,18 +3,20 @@ title: Problema de assinatura de URLs rastreados
 description: Problema de assinatura de URLs rastreados
 hide: true
 exl-id: 8c2725a8-2c3a-448a-8c04-c0c2a5950574
-TQID: https://experienceleague.adobe.com/6R8s1OkdU0TWD2Qo1DnI33T-FsiV4kVNkn942k0o5-Q
+TQID: 'https://experienceleague.adobe.com/6R8s1OkdU0TWD2Qo1DnI33T-FsiV4kVNkn942k0o5-Q'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
-workflow-type: ht
-source-wordcount: 207
+    internal-label: Security
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
+workflow-type: tm+mt
+source-wordcount: '207'
 ht-degree: 100%
-
 ---
-
 # Problema de assinatura de URLs rastreados {#tracked-urls}
 
 Após alterações recentes, os URLs rastreados enviados pelo Campaign podem falhar. Algumas caixas de correio podem ser mais afetadas do que outras, já que algumas empresas têm ferramentas de segurança específicas que podem afetar links e alterar o mecanismo de assinatura do URL.

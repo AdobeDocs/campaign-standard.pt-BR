@@ -8,21 +8,31 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 feature: Landing Pages
 role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
-TQID: https://experienceleague.adobe.com/r55Y65MfV0YNU5XLTeD3e--ZlHlcqUxH88HV2o3qec0
+TQID: 'https://experienceleague.adobe.com/r55Y65MfV0YNU5XLTeD3e--ZlHlcqUxH88HV2o3qec0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1037
+source-wordcount: '1056'
 ht-degree: 89%
-
 ---
-
 # Introdução às páginas de destino {#getting-started-with-landing-pages}
 
 As principais etapas ao configurar páginas de destino são as seguintes:
@@ -144,6 +154,6 @@ Para saber mais sobre publicação da página de destino, consulte [esta seção
 
 Este vídeo mostra como criar e editar uma landing page.
 
->[!VIDEO](https://video.tv.adobe.com/v/36317?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

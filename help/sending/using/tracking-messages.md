@@ -8,23 +8,34 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
-TQID: https://experienceleague.adobe.com/0kuFE3F4zrJzydRFdByb6Jz1lNUA1wrpL70bXWwxYIA
+TQID: 'https://experienceleague.adobe.com/0kuFE3F4zrJzydRFdByb6Jz1lNUA1wrpL70bXWwxYIA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Customer profiles
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 485
-ht-degree: 34%
-
+source-wordcount: '485'
+ht-degree: 35%
 ---
-
 # Rastreamento de mensagens{#tracking-messages}
 
 ## Sobre o rastreamento {#about-tracking}
@@ -38,7 +49,7 @@ As informações de rastreamento estão disponíveis para cada contato do banco 
 O Adobe Campaign usa dois tipos de cookies:
 
 * Um cookie de sessão (nlid). Ele contém o identificador do email enviado ao contato (broadlogId) e o identificador do modelo de mensagem (deliveryId). Ele é adicionado quando o contato clica em um URL incluído em um email enviado pelo Adobe Campaign e permite que você acompanhe seu comportamento na Web. Esse cookie de sessão é apagado automaticamente quando o navegador é fechado. O contato pode configurar o navegador para recusar cookies.
-* Um cookie compartilhado entre as soluções da Adobe Experience Cloud. Ele permite identificar os usuários que interagem com as soluções da Experience Cloud quando visitam um site. A descrição deste cookie está disponível [aqui](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=pt-BR).
+* Um cookie compartilhado entre as soluções da Adobe Experience Cloud. Ele permite identificar os usuários que interagem com as soluções da Experience Cloud quando visitam um site. A descrição deste cookie está disponível [aqui](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
 
 O rastreamento com o Adobe Campaign Standard permite acessar as seguintes funcionalidades:
 
@@ -62,7 +73,7 @@ O rastreamento com o Adobe Campaign Standard permite acessar as seguintes funcio
 </tr>
 <tr>
 <td>Rastreamento de emails</td>
-<td>Rastreamento por push</td>
+<td>Rastreamento de push</td>
 <td>URLs rastreados</td>
 <td>Logs de rastreamento</td>
 <td>Relatório de rastreamento</td>

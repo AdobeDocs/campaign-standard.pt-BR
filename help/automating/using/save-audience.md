@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-TQID: https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs
+TQID: 'https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: '803'
 ht-degree: 99%
-
 ---
-
 # Salvar público-alvo{#save-audience}
 
 ## Descrição {#description}
@@ -51,18 +60,18 @@ A atividade **[!UICONTROL Save audience]** é usada essencialmente para manter o
 
    * **[!UICONTROL Update an existing audience]**: selecione um público-alvo e escolha o tipo de atualização:
 
-      * **[!UICONTROL Replace audience content with new data]**: todo o conteúdo do público-alvo é substituído. Os dados antigos são perdidos. Somente os dados da transição de entrada da atividade Save audience são mantidos.
-      * **[!UICONTROL Complete audience with new data]**: os dados antigos do público-alvo são mantidos e os dados da transição de entrada da atividade Save audience são adicionados a eles.
+     * **[!UICONTROL Replace audience content with new data]**: todo o conteúdo do público-alvo é substituído. Os dados antigos são perdidos. Somente os dados da transição de entrada da atividade Save audience são mantidos.
+     * **[!UICONTROL Complete audience with new data]**: os dados antigos do público-alvo são mantidos e os dados da transição de entrada da atividade Save audience são adicionados a eles.
 
    * **[!UICONTROL Create then update an audience]**: insira o nome do público-alvo e selecione o tipo de atualização. Se o público-alvo ainda não existir, ele será criado. Se já existir, será atualizado de acordo com o modo selecionado:
 
-      * **[!UICONTROL Replace audience content with new data]**: todo o conteúdo do público-alvo é substituído. Os dados antigos são perdidos. Somente os dados da transição de entrada da atividade Save audience são mantidos.
+     * **[!UICONTROL Replace audience content with new data]**: todo o conteúdo do público-alvo é substituído. Os dados antigos são perdidos. Somente os dados da transição de entrada da atividade Save audience são mantidos.
 
-        Aviso: essa opção apaga o tipo de público-alvo e a dimensão de direcionamento do público-alvo atualizado.
+       Aviso: essa opção apaga o tipo de público-alvo e a dimensão de direcionamento do público-alvo atualizado.
 
-      * **[!UICONTROL Complete audience with new data]**: os dados antigos do público-alvo são mantidos e os dados da transição de entrada da atividade Save audience são adicionados a eles.
+     * **[!UICONTROL Complete audience with new data]**: os dados antigos do público-alvo são mantidos e os dados da transição de entrada da atividade Save audience são adicionados a eles.
 
-        Aviso: essa opção causará um erro se o tipo de público-alvo ou a dimensão de direcionamento do público-alvo atualizado não for compatível com a configuração atual do fluxo de trabalho. Por exemplo, não é possível preencher um público-alvo do tipo File com os perfis de uma consulta.
+       Aviso: essa opção causará um erro se o tipo de público-alvo ou a dimensão de direcionamento do público-alvo atualizado não for compatível com a configuração atual do fluxo de trabalho. Por exemplo, não é possível preencher um público-alvo do tipo File com os perfis de uma consulta.
 
    * **[!UICONTROL Create a new audience]**: insira o nome do público-alvo que será criado. A hora e a data em que o público-alvo é criado serão automaticamente adicionadas ao nome do público-alvo. Isso torna o público-alvo exclusivo toda vez que o fluxo de trabalho é executado.
    * **[!UICONTROL Share in Adobe Experience Cloud]**: se você tiver direcionado perfis e quiser exportar o público-alvo para a Adobe Experience Cloud, selecione essa opção e, em seguida, escolha um público-alvo compartilhado ou crie um novo público-alvo.

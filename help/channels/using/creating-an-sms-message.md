@@ -9,24 +9,34 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-TQID: https://experienceleague.adobe.com/Y9oiKbi65Zl6pRoi10SHvEecQ5zeWbpK0rBLAhsPliE
+TQID: 'https://experienceleague.adobe.com/Y9oiKbi65Zl6pRoi10SHvEecQ5zeWbpK0rBLAhsPliE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '568'
 ht-degree: 87%
-
 ---
-
 # Criação de uma mensagem SMS{#creating-an-sms-message}
 
 A criação de uma entrega de SMS é muito semelhante à criação de um email comum. As etapas a seguir descrevem a configuração específica para esse canal. Consulte [Criar um email](../../channels/using/creating-an-email.md) para obter mais informações sobre outras opções.
@@ -100,6 +110,6 @@ Quando o envio estiver concluído, você pode iniciar a medição do impacto de 
 
 Este vídeo mostra como criar uma entrega de SMS.
 
->[!VIDEO](https://video.tv.adobe.com/v/31861/?captions=por_br&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

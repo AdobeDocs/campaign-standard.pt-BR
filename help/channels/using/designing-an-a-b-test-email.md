@@ -9,20 +9,26 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-TQID: https://experienceleague.adobe.com/dfZ-v5Mfq7-u8GvDulzONuDGj4Ff2sCmPSFggeYuqPM
+TQID: 'https://experienceleague.adobe.com/dfZ-v5Mfq7-u8GvDulzONuDGj4Ff2sCmPSFggeYuqPM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Beginner
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 842
+source-wordcount: '842'
 ht-degree: 94%
-
 ---
-
 # Criação de email de teste A/B{#designing-an-a-b-test-email}
 
 A funcionalidade do teste A/B no Adobe Campaign permite definir duas a três variantes de email. Cada variante é enviada para amostras de população, a fim de determinar qual tem o melhor resultado. Uma vez determinada, a variante vencedora é então enviada para a população restante.

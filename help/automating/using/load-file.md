@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-TQID: https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A
+TQID: 'https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1368
+source-wordcount: '1368'
 ht-degree: 90%
-
 ---
-
 # Carregar arquivo {#load-file}
 
 ## Descrição {#description}
@@ -143,24 +152,24 @@ A formatação de coluna permite definir o processamento de valor de cada coluna
 * **[!UICONTROL Data type]**: especifica o tipo de dados esperado para cada coluna.
 * **[!UICONTROL Format and separators]**, **Propriedades**: especifique as propriedades de um texto, a hora, a data e o formato do valor numérico, bem como o separador especificado pelo contexto da coluna.
 
-   * **[!UICONTROL Maximum number of characters]**: especifica o número máximo de caracteres para colunas do tipo string.
+  * **[!UICONTROL Maximum number of characters]**: especifica o número máximo de caracteres para colunas do tipo string.
 
-     Esse campo deve ser preenchido no carregamento de arquivos compostos de colunas com comprimento fixo.
+    Esse campo deve ser preenchido no carregamento de arquivos compostos de colunas com comprimento fixo.
 
-   * **[!UICONTROL Letter case management]**: define se um processo de caso de caractere precisa ser aplicado aos dados de **Text**.
-   * **[!UICONTROL White space management]**: especifica se determinados espaços precisam ser ignorados em uma string para os dados de **Text**.
-   * **[!UICONTROL Time format]**, **[!UICONTROL Date format]**: especifique o formato dos dados de **Date**, **Time** e **Date and time**.
-   * **[!UICONTROL Format]**: permite definir o formato dos valores numéricos para os dados de **Integer** e **Floating number**.
-   * **[!UICONTROL Separator]**: define o separador especificado pelo contexto da coluna (separador de milhares ou separador decimal para valores numéricos, separador para datas e hora) para os dados de **Date**, **Time**, **Date and time**, **Integer** e **Floating number**.
+  * **[!UICONTROL Letter case management]**: define se um processo de caso de caractere precisa ser aplicado aos dados de **Text**.
+  * **[!UICONTROL White space management]**: especifica se determinados espaços precisam ser ignorados em uma string para os dados de **Text**.
+  * **[!UICONTROL Time format]**, **[!UICONTROL Date format]**: especifique o formato dos dados de **Date**, **Time** e **Date and time**.
+  * **[!UICONTROL Format]**: permite definir o formato dos valores numéricos para os dados de **Integer** e **Floating number**.
+  * **[!UICONTROL Separator]**: define o separador especificado pelo contexto da coluna (separador de milhares ou separador decimal para valores numéricos, separador para datas e hora) para os dados de **Date**, **Time**, **Date and time**, **Integer** e **Floating number**.
 
 * **[!UICONTROL Remapping of values]**: este campo só está disponível na configuração detalhada da coluna. Permite transformar determinados valores quando eles são importados. Por exemplo, você pode transformar “três” em “3”.
 * **[!UICONTROL Error processing]**: define o comportamento se um erro for encontrado.
 
-   * **[!UICONTROL Ignore the value]**: o valor é ignorado. Um aviso é gerado no log de execução do fluxo de trabalho.
-   * **[!UICONTROL Reject the line]**: a linha inteira não é processada.
-   * **[!UICONTROL Use a default value]**: substitui o valor que causa o erro por um valor padrão, definido no campo **[!UICONTROL Default value]**.
-   * **[!UICONTROL Use a default value in case the value is not remapped]**: substitui o valor que causa o erro por um valor padrão, definido no campo **[!UICONTROL Default value]**, a menos que um mapeamento tenha sido definido para o valor incorreto (consulte a opção **[!UICONTROL Remapping of values]** acima).
-   * **[!UICONTROL Reject the line when there is no remapping value]**: a linha inteira não é processada a menos que um mapeamento tenha sido definido para o valor incorreto (consulte a opção **[!UICONTROL Remapping of values]** acima).
+  * **[!UICONTROL Ignore the value]**: o valor é ignorado. Um aviso é gerado no log de execução do fluxo de trabalho.
+  * **[!UICONTROL Reject the line]**: a linha inteira não é processada.
+  * **[!UICONTROL Use a default value]**: substitui o valor que causa o erro por um valor padrão, definido no campo **[!UICONTROL Default value]**.
+  * **[!UICONTROL Use a default value in case the value is not remapped]**: substitui o valor que causa o erro por um valor padrão, definido no campo **[!UICONTROL Default value]**, a menos que um mapeamento tenha sido definido para o valor incorreto (consulte a opção **[!UICONTROL Remapping of values]** acima).
+  * **[!UICONTROL Reject the line when there is no remapping value]**: a linha inteira não é processada a menos que um mapeamento tenha sido definido para o valor incorreto (consulte a opção **[!UICONTROL Remapping of values]** acima).
 
   >[!NOTE]
   >
@@ -169,6 +178,6 @@ A formatação de coluna permite definir o processamento de valor de cada coluna
 * **[!UICONTROL Default value]**: especifica o valor padrão de acordo com o processamento de erros escolhido.
 * **[!UICONTROL Empty value management]**: especifica como gerenciar valores vazios durante o carregamento de dados.
 
-   * **[!UICONTROL Generate an error for numerical fields]**: gera um erro apenas para os campos numéricos, caso contrário, insere um valor NULL.
-   * **[!UICONTROL Insert NULL in the corresponding field]**: autoriza valores vazios. O valor NULL é então inserido.
-   * **[!UICONTROL Generate an error]**: gera um erro se um valor estiver vazio.
+  * **[!UICONTROL Generate an error for numerical fields]**: gera um erro apenas para os campos numéricos, caso contrário, insere um valor NULL.
+  * **[!UICONTROL Insert NULL in the corresponding field]**: autoriza valores vazios. O valor NULL é então inserido.
+  * **[!UICONTROL Generate an error]**: gera um erro se um valor estiver vazio.

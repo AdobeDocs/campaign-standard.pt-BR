@@ -9,30 +9,40 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-TQID: https://experienceleague.adobe.com/ertIWjv9n88c9As-BDvGXtzsod8Bce4yTYEVpmeZeEo
+TQID: 'https://experienceleague.adobe.com/ertIWjv9n88c9As-BDvGXtzsod8Bce4yTYEVpmeZeEo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: bb6c4d97-79f4-412c-a764-b541e9f9facd
+    internal-label: Points of Interest
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Experience Manager integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Reporting
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 760
-ht-degree: 78%
-
+source-wordcount: '830'
+ht-degree: 76%
 ---
-
 # Sobre integrações do Campaign{#get-started-campaign-integrations}
 
 Esta seção detalha as integrações funcionais disponíveis entre a versão atual do Adobe Campaign e outras soluções e serviços.
@@ -67,7 +77,7 @@ Se você quiser integrar fluxos de dados de outros sistemas ao Adobe Campaign, c
    <td> Adobe Experience Manager<br /> </td> 
    <td> Permite criar conteúdo de email ou formulários mapeados para o banco de dados do Adobe Campaign diretamente no Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabalhe com o Campaign e o Experience Manager</a>, <a href="https://helpx.adobe.com/br/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integre o Experience Manager e o Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=pt-BR">Crie um email com o Experience Manager e o Campaign</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Trabalhe com o Campaign e o Experience Manager</a>, <a href="https://helpx.adobe.com/br/experience-manager/6-4/sites/administering/using/campaignstandard.html">Integre o Experience Manager e o Campaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Crie um email com o Experience Manager e o Campaign</a> 
     </td> 
   </tr> 
   <tr> 
@@ -114,13 +124,13 @@ Se você quiser integrar fluxos de dados de outros sistemas ao Adobe Campaign, c
     <tr> 
    <td> Adobe Journey Orchestration<br /> </td> 
    <td> Permite enviar emails, notificações por push e SMS usando os recursos de Mensagens Transacionais do Adobe Campaign Standard no contexto do Adobe Journey Orchestration, por meio de uma ação pronta para uso.<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=pt-BR">Trabalhando com o Adobe Journey Orchestration e o Adobe Campaign Standard</a><br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Trabalhando com o Adobe Journey Orchestration e o Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Permite editar um conteúdo de email do Dreamweaver e sincronizá-lo com o Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=pt-BR">Criar emails personalizados com vídeo do Dreamweaver</a>, <a href="https://helpx.adobe.com/br/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Usar extensão do Campaign para o Dreamweaver</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=pt-BR">Criar emails personalizados com vídeo do Dreamweaver</a>, <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Usar extensão do Campaign para o Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 

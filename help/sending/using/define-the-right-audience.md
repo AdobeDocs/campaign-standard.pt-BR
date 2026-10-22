@@ -9,22 +9,28 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
-TQID: https://experienceleague.adobe.com/keRwWGnvoXbhg4XhReRZzSF1L9x93BbNu8YhBWtUoNM
+TQID: 'https://experienceleague.adobe.com/keRwWGnvoXbhg4XhReRZzSF1L9x93BbNu8YhBWtUoNM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 65%
-
+source-wordcount: '526'
+ht-degree: 74%
 ---
-
 # Definir o público-alvo correto {#define-the-right-audience}
 
 A população de destino é fundamental: crie suas listas cuidadosamente, teste seus emails em clientes de email populares e dispositivos móveis e verifique se suas listas de email estão atualizadas (sem endereços desconhecidos ou obsoletos). Você também pode enviar provas que ajudam a configurar um ciclo de validação completo.
@@ -35,7 +41,7 @@ Saiba mais sobre as populações de destino [nesta seção](../../audiences/usin
 
 Quando seu conteúdo estiver pronto, será necessário definir com cuidado quem receberá sua mensagem.
 
-Para que sua entrega seja bem-sucedida, o conteúdo personalizado mais relevante deve ser enviado aos destinatários corretos. O Adobe Campaign permite criar o público mais preciso: você pode selecionar os recipients de acordo com a idade, localização, o que compraram, se clicaram em um link em um delivery anterior, etc. Com o Adobe Campaign, também é possível definir perfis de teste, grupos de controle e seed addresses para garantir que o público-alvo esteja correto.
+Para que sua entrega seja bem-sucedida, o conteúdo personalizado mais relevante deve ser enviado aos destinatários corretos. O Adobe Campaign permite criar o público-alvo mais preciso: você pode selecionar os destinatários de acordo com a idade, localização, o que compraram, se clicaram em um link em uma entrega anterior etc. Com o Adobe Campaign, você também pode definir perfis de teste, grupos de controle e endereços de amostra para garantir que seu público-alvo esteja correto.
 
 ## Direcionar mapeamentos {#target-mappings}
 

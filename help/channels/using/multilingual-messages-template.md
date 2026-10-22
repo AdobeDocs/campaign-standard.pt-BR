@@ -8,20 +8,29 @@ feature: Multilingual Messages
 role: User
 level: Intermediate
 exl-id: 3d869f31-7dfb-4546-aba5-80a2787e00be
-TQID: https://experienceleague.adobe.com/TsDW-1w3j0-CvsR0R0V-KnUOc4VahG7iCg46bgCyBJ0
+TQID: 'https://experienceleague.adobe.com/TsDW-1w3j0-CvsR0R0V-KnUOc4VahG7iCg46bgCyBJ0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
+subfeature_v2:
+  - id: fa669864-b1c7-4f0a-8d32-9480adcbe6a2
+    internal-label: Multilingual messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 295
+source-wordcount: '295'
 ht-degree: 100%
-
 ---
-
 # Modelos de mensagens multilíngues {#multilingual-messages-template}
 
 Um modelo multilíngue é específico para gerenciar mensagens multilíngues. Esse tipo de modelo está disponível para mensagens de **email** e **SMS** e pode ser usado no modo independente, em um fluxo de trabalho ou em uma entrega recorrente.

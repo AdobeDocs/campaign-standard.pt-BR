@@ -10,13 +10,28 @@ role: Developer
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '501'
 ht-degree: 0%
-
 ---
-
 # Definição de mapeamento {#mapping-definition}
 
 >[!IMPORTANT]
@@ -43,7 +58,7 @@ Para executar essa tarefa, os pré-requisitos são:
 
 >[!NOTE]
 >
->Para que um lote seja assimilado no Perfil do cliente em tempo real ou no Serviço de identidade, o conjunto de dados deve ser [habilitado para o Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=pt-BR).
+>Para que um lote seja assimilado no Perfil do cliente em tempo real ou no Serviço de identidade, o conjunto de dados deve ser [habilitado para o Perfil do cliente em tempo real](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
 >
 >Se o conjunto de dados selecionado já estiver sendo usado em um mapeamento de dados existente, um aviso será exibido para informá-lo de que seus dados podem ser substituídos no Adobe Experience Platform. Isso pode acontecer quando há alguns recipients comuns em mapeamentos de dados usando um mesmo conjunto de dados.
 
@@ -63,7 +78,7 @@ Os recursos estendidos definidos no Campaign Standard são mapeados como todos o
 
 É possível personalizar a extensão XDM por meio da API e definir sua própria extensão, permitindo um melhor controle sobre o mapeamento.
 
-Consulte o [Tutorial da API do registro de esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=pt-BR) para obter mais detalhes sobre a API XDM.
+Consulte o [Tutorial da API do registro de esquema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) para obter mais detalhes sobre a API XDM.
 
 Para mapear um campo de enumeração, é necessário usar o editor de expressão para definir cada valor de enumeração correspondente ao valor XDM. Por exemplo, o postaladdressfield precisa ser definido como:
 

@@ -8,25 +8,34 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
-TQID: https://experienceleague.adobe.com/4rmq12hEkuVgomFFRr9u1qZhr3AlTmPvFXnAFMbZBos
+TQID: 'https://experienceleague.adobe.com/4rmq12hEkuVgomFFRr9u1qZhr3AlTmPvFXnAFMbZBos'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Reporting
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 386
+source-wordcount: '386'
 ht-degree: 25%
-
 ---
-
 # Introdução aos relatórios dinâmicos {#get-started-reporting}
 
 <table>
@@ -94,6 +103,6 @@ Leia mais:
 
 Este vídeo fornece uma visão geral sobre os recursos de relatórios do Adobe Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/38320?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
 Vídeos extras explicativos do Campaign Standard estão disponíveis [aqui](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=pt-BR).

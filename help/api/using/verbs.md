@@ -1,5 +1,5 @@
 ---
-title: Verbos do GET / POST / PATCH / DELETE
+title: Verbos GET / POST / PATCH / DELETE
 description: Saiba mais sobre os verbos usados nas APIs do Campaign Standard.
 audience: developing
 content-type: reference
@@ -9,14 +9,26 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: de97a194-d497-4665-906e-53178fd3b119
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
-
 ---
-
-# Verbos do GET / POST / PATCH / DELETE {#verbs}
+# Verbos GET / POST / PATCH / DELETE {#verbs}
 
 Os verbos disponíveis para executar operações nos recursos são:
 
@@ -31,7 +43,7 @@ Os verbos disponíveis para executar operações nos recursos são:
 
 ***Solicitações de exemplo***
 
-* Exemplo de solicitação de GET na coleção de perfis.
+* Exemplo de solicitação GET na coleção de perfis.
 
 
   ```
@@ -67,7 +79,7 @@ Os verbos disponíveis para executar operações nos recursos são:
   }
   ```
 
-* Exemplo de solicitação do GET em um perfil específico.
+* Exemplo de solicitação GET em um perfil específico.
 
 
   ```
