@@ -195,7 +195,7 @@ Para enviar dados de rastreamento ao [!DNL Adobe Campaign Standard] para relató
 
 1. Marque a caixa de seleção **[!UICONTROL Add post body]**.
 
-1. Em **[!UICONTROL Post Body]**, digite ****.
+1. Em **[!UICONTROL Post Body]**, digite **&#x200B;**.
 
 1. Em **[!UICONTROL Content Type]**, digite **application/json**.
 

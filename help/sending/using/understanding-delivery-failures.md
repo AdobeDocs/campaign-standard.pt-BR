@@ -112,7 +112,7 @@ Para modificar a duração de uma entrega, vá para os parâmetros avançados da
 
 >[!IMPORTANT]
 >
->**O parâmetro **[!UICONTROL Delivery duration]**nos deliveries do Campaign agora só será usado se definido para 3,5 dias ou menos.** Se você definir um valor superior a 3,5 dias, ele não será levado em consideração.
+>**O parâmetro &#x200B;** [!UICONTROL Delivery duration]&#x200B;**nos deliveries do Campaign agora só será usado se definido para 3,5 dias ou menos.** Se você definir um valor superior a 3,5 dias, ele não será levado em consideração.
 
 Por exemplo, se você quiser que as tentativas de um delivery parem depois de um dia, poderá definir a duração do delivery como **1d**, e as mensagens na fila de tentativas serão removidas após um dia.
 
