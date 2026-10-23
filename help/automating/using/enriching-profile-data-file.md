@@ -10,23 +10,34 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-TQID: https://experienceleague.adobe.com/M6lCo6PjkTiTa1mwADcrEKr2cTrWvGIzTncDR0HMKa4
+TQID: 'https://experienceleague.adobe.com/M6lCo6PjkTiTa1mwADcrEKr2cTrWvGIzTncDR0HMKa4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Customer profiles
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: '531'
 ht-degree: 79%
-
 ---
-
 # Enriquecimento dos dados do perfil com os dados contidos em um arquivo {#enriching-profile-data-with-data-contained-in-a-file}
 
 Este exemplo mostra como enriquecer os dados do perfil com os dados de compra contidos em um arquivo. Consideramos aqui que os dados de compra estão armazenados em um sistema de terceiros. Cada perfil pode ter várias compras armazenadas no arquivo. O objetivo final do fluxo de trabalho é enviar um email aos perfis do público alvo que comprou pelo menos dois itens para agradecer sua fidelidade.
@@ -56,37 +67,37 @@ O fluxo de trabalho é configurado da seguinte maneira:
 
   Depois que o link é criado, dois conjuntos de **[!UICONTROL Additional data]** são incluídos:
 
-   * Uma coleção de duas linhas correspondentes às duas últimas transações de cada perfil. Para essa coleção, o nome do produto, a data da transação e o preço do produto são incluídos como dados adicionais. Uma classificação decrescente é aplicada aos dados. Para criar a coleção, na guia **[!UICONTROL Additional data]**:
+  * Uma coleção de duas linhas correspondentes às duas últimas transações de cada perfil. Para essa coleção, o nome do produto, a data da transação e o preço do produto são incluídos como dados adicionais. Uma classificação decrescente é aplicada aos dados. Para criar a coleção, na guia **[!UICONTROL Additional data]**:
 
-     Selecione o link definido anteriormente na guia **[!UICONTROL Advanced relations]** da atividade.
+    Selecione o link definido anteriormente na guia **[!UICONTROL Advanced relations]** da atividade.
 
-     ![](assets/enrichment_example_workflow3.png)
+    ![](assets/enrichment_example_workflow3.png)
 
-     Marque **[!UICONTROL Collection]** e especifique o número de linhas a serem recuperadas (2, neste exemplo). Nesta tela, você pode personalizar o **[!UICONTROL Alias]** e o **[!UICONTROL Label]** da coleção. Esses valores estarão visíveis nas seguintes atividades do fluxo de trabalho ao se referirem a esta coleção.
+    Marque **[!UICONTROL Collection]** e especifique o número de linhas a serem recuperadas (2, neste exemplo). Nesta tela, você pode personalizar o **[!UICONTROL Alias]** e o **[!UICONTROL Label]** da coleção. Esses valores estarão visíveis nas seguintes atividades do fluxo de trabalho ao se referirem a esta coleção.
 
-     ![](assets/enrichment_example_workflow4.png)
+    ![](assets/enrichment_example_workflow4.png)
 
-     Quanto aos **[!UICONTROL Data]** a serem mantidos para a coleção, selecione as colunas que serão usadas na entrega final.
+    Quanto aos **[!UICONTROL Data]** a serem mantidos para a coleção, selecione as colunas que serão usadas na entrega final.
 
-     ![](assets/enrichment_example_workflow6.png)
+    ![](assets/enrichment_example_workflow6.png)
 
-     Aplique uma classificação decrescente na data da transação para garantir a recuperação das transações mais recentes.
+    Aplique uma classificação decrescente na data da transação para garantir a recuperação das transações mais recentes.
 
-     ![](assets/enrichment_example_workflow7.png)
+    ![](assets/enrichment_example_workflow7.png)
 
-   * Uma agregação conta o número total de transações para cada perfil. Essa agregação será usada posteriormente para filtrar perfis que tenham pelo menos duas transações registradas. Para criar a agregação, na guia **[!UICONTROL Additional data]**:
+  * Uma agregação conta o número total de transações para cada perfil. Essa agregação será usada posteriormente para filtrar perfis que tenham pelo menos duas transações registradas. Para criar a agregação, na guia **[!UICONTROL Additional data]**:
 
-     Selecione o link definido anteriormente na guia **[!UICONTROL Advanced relations]** da atividade.
+    Selecione o link definido anteriormente na guia **[!UICONTROL Advanced relations]** da atividade.
 
-     ![](assets/enrichment_example_workflow3.png)
+    ![](assets/enrichment_example_workflow3.png)
 
-     Selecione **[!UICONTROL Aggregate]**.
+    Selecione **[!UICONTROL Aggregate]**.
 
-     ![](assets/enrichment_example_workflow8.png)
+    ![](assets/enrichment_example_workflow8.png)
 
-     Quanto aos **[!UICONTROL Data]** a serem mantidos, defina uma agregação **Count All**. Se necessário, especifique um apelido personalizado para encontrá-lo com mais rapidez nas atividades posteriores.
+    Quanto aos **[!UICONTROL Data]** a serem mantidos, defina uma agregação **Count All**. Se necessário, especifique um apelido personalizado para encontrá-lo com mais rapidez nas atividades posteriores.
 
-     ![](assets/enrichment_example_workflow9.png)
+    ![](assets/enrichment_example_workflow9.png)
 
 * Uma atividade de [Segmentação](../../automating/using/segmentation.md) com apenas um segmento, que recupera perfis do público alvo inicial que tenham pelo menos duas transações registradas. Perfis com somente uma transação são excluídos. Para isso, a consulta da segmentação é feita na agregação definida anteriormente.
 

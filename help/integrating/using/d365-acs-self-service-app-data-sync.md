@@ -10,22 +10,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
-TQID: https://experienceleague.adobe.com/rEACKEIILPxKSh-KZ8bFkXqt1MvmffvCTbb2IaJhQ0I
+TQID: 'https://experienceleague.adobe.com/rEACKEIILPxKSh-KZ8bFkXqt1MvmffvCTbb2IaJhQ0I'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Email marketing
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1854
+source-wordcount: '1854'
 ht-degree: 0%
-
 ---
-
 # Sincronizar dados
 
 Você pode sincronizar tabelas do Microsoft Dynamics 365 para métricas de marketing do Campaign e do Campaign para o Microsoft Dynamics 365. A sincronização é executada por meio de três fluxos de trabalho técnicos dedicados: **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**. Consulte esta seção para [saber mais](../../integrating/using/d365-acs-self-service-app-workflows.md).
@@ -48,25 +58,25 @@ Aqui está uma descrição de cada uma das colunas nesta tabela:
 
 * **[!UICONTROL ACTIONS]**: as ações possíveis estão listadas abaixo:
 
-   * Clique no ícone **[!UICONTROL Edit]** para editar esse mapeamento.
+  * Clique no ícone **[!UICONTROL Edit]** para editar esse mapeamento.
 
-   * Use o ícone **[!UICONTROL Delete]** para excluir um mapeamento de tabela.
+  * Use o ícone **[!UICONTROL Delete]** para excluir um mapeamento de tabela.
 
-   * Clique no ícone **[!UICONTROL Replay Data]** para sincronizar novamente todos os dados na tabela do Microsoft Dynamics 365. Normalmente, o aplicativo de integração só sincronizará os dados no Microsoft Dynamics 365 que foram alterados recentemente.  No entanto, em alguns casos (por exemplo, você fez uma alteração ou um erro), talvez você queira que todos os dados sejam ressincronizados.  Nesses casos, você clicaria nesse botão e, na próxima vez que interromper/iniciar o fluxo de trabalho do **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, seus dados começariam a sincronizar.
+  * Clique no ícone **[!UICONTROL Replay Data]** para sincronizar novamente todos os dados na tabela do Microsoft Dynamics 365. Normalmente, o aplicativo de integração só sincronizará os dados no Microsoft Dynamics 365 que foram alterados recentemente.  No entanto, em alguns casos (por exemplo, você fez uma alteração ou um erro), talvez você queira que todos os dados sejam ressincronizados.  Nesses casos, você clicaria nesse botão e, na próxima vez que interromper/iniciar o fluxo de trabalho do **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, seus dados começariam a sincronizar.
 
-     Se você clicar no botão **[!UICONTROL Replay Data]** e as verificações forem bem-sucedidas, o ícone será desabilitado: indica que os dados deste par de mapeamentos de tabela serão ressincronizados com a próxima execução do fluxo de trabalho **[!UICONTROL Microsoft Dynamics 365 to Campaign]**.
+    Se você clicar no botão **[!UICONTROL Replay Data]** e as verificações forem bem-sucedidas, o ícone será desabilitado: indica que os dados deste par de mapeamentos de tabela serão ressincronizados com a próxima execução do fluxo de trabalho **[!UICONTROL Microsoft Dynamics 365 to Campaign]**.
 
-     Não é possível selecionar a repetição dos dados quando o seguinte é verdadeiro:
+    Não é possível selecionar a repetição dos dados quando o seguinte é verdadeiro:
 
-      * Se houver 2.000.000 (ou mais) itens na métrica de Backlog associados ao fluxo de trabalho **[!UICONTROL Microsoft Dynamics 365 to Campaign]** (exibidos na página **[!UICONTROL Workflows]**)
-      * Se houver 2.000.000 ou mais registros na tabela do Microsoft Dynamics 365
+    * Se houver 2.000.000 (ou mais) itens na métrica de Backlog associados ao fluxo de trabalho **[!UICONTROL Microsoft Dynamics 365 to Campaign]** (exibidos na página **[!UICONTROL Workflows]**)
+    * Se houver 2.000.000 ou mais registros na tabela do Microsoft Dynamics 365
 
-     O número de registros que precisam ser ressincronizados varia. Se você tiver um grande número de registros, pode levar algum tempo para concluir o processo de sincronização. Consulte a métrica **[!UICONTROL Backlog]** na página **[!UICONTROL Workflows]** conforme o aplicativo de integração funciona para concluir o processo de sincronização.
+    O número de registros que precisam ser ressincronizados varia. Se você tiver um grande número de registros, pode levar algum tempo para concluir o processo de sincronização. Consulte a métrica **[!UICONTROL Backlog]** na página **[!UICONTROL Workflows]** conforme o aplicativo de integração funciona para concluir o processo de sincronização.
 
-     >[!IMPORTANT]
-     >
-     > É altamente recomendável interromper o fluxo de trabalho de integração ao publicar alterações no Adobe Campaign Standard ou no Microsoft Dynamics 365. As alterações aplicáveis incluem: atualizações de recursos/entidades (e seus campos associados), links, colunas de identificador etc. que estão sendo usados atualmente pela integração.
-     >
+    >[!IMPORTANT]
+    >
+    > É altamente recomendável interromper o fluxo de trabalho de integração ao publicar alterações no Adobe Campaign Standard ou no Microsoft Dynamics 365. As alterações aplicáveis incluem: atualizações de recursos/entidades (e seus campos associados), links, colunas de identificador etc. que estão sendo usados atualmente pela integração.
+    >
 
 ## Criar um novo mapeamento {#add-a-new-mapping}
 

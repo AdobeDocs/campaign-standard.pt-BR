@@ -10,23 +10,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
-TQID: https://experienceleague.adobe.com/eSWqj-qyCQkrDNHl-7Pc6It5oBFHSBNG3-F0aoNiRYY
+TQID: 'https://experienceleague.adobe.com/eSWqj-qyCQkrDNHl-7Pc6It5oBFHSBNG3-F0aoNiRYY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 431
+source-wordcount: '431'
 ht-degree: 2%
-
 ---
-
 # Acesse a Integração do Adobe Campaign Standard com o aplicativo de autoatendimento do Microsoft Dynamics 365
 
-Essa configuração exigirá que você trabalhe com um Administrador do Experience Cloud (EC) na sua organização. Essas são as etapas iniciais necessárias para fornecer acesso à interface do aplicativo de integração de autoatendimento. Depois de ter acesso à ferramenta, você definirá conexões com seus dados e configurará o fluxo de dados entre o Adobe Campaign e o Microsoft Dynamics 365.
+Essa configuração exigirá que você trabalhe com um Administrador da Experience Cloud (EC) para sua organização. Essas são as etapas iniciais necessárias para fornecer acesso à interface do aplicativo de integração de autoatendimento. Depois de ter acesso à ferramenta, você definirá conexões com seus dados e configurará o fluxo de dados entre o Adobe Campaign e o Microsoft Dynamics 365.
 
 >[!NOTE]
 >
@@ -34,7 +43,7 @@ Essa configuração exigirá que você trabalhe com um Administrador do Experien
 
 ## Adicionar um perfil de produto
 
-Nesta seção, você aprenderá a conceder acesso à integração do Adobe Campaign Standard com o aplicativo de autoatendimento do Microsoft Dynamics 365. Os usuários que têm acesso à sua organização no Adobe Experience Cloud não terão acesso ao aplicativo de autoatendimento de integração, a menos que você siga as etapas abaixo para conceder acesso a eles.
+Nesta seção, você aprenderá a conceder acesso à integração do Adobe Campaign Standard com o aplicativo de autoatendimento do Microsoft Dynamics 365. Os usuários que têm acesso à sua organização na Adobe Experience Cloud não terão acesso ao aplicativo de autoatendimento de integração, a menos que você siga as etapas abaixo para conceder acesso a eles.
 
 >[!IMPORTANT]
 >
@@ -46,7 +55,7 @@ Nesta seção, você aprenderá a conceder acesso à integração do Adobe Campa
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
-1. Clique em **[!UICONTROL Products]** para acessar suas soluções da Experience Cloud.
+1. Clique em **[!UICONTROL Products]** para acessar as soluções da Experience Cloud.
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 

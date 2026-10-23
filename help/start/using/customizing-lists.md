@@ -8,24 +8,29 @@ feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 651a53b4-e02f-4963-99e6-2e2c324b1c8c
-TQID: https://experienceleague.adobe.com/xqpv4a057Nz49lOh2ZrTZuPcZBe-z45nt2UfDtCgrRQ
+TQID: 'https://experienceleague.adobe.com/xqpv4a057Nz49lOh2ZrTZuPcZBe-z45nt2UfDtCgrRQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Accessibility
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '393'
 ht-degree: 2%
-
 ---
-
 # Personalização de listas{#customizing-lists}
 
 As telas **List** permitem exibir elementos de um ou vários recursos fornecidos.

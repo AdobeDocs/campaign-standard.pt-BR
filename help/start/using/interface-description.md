@@ -8,30 +8,42 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-TQID: https://experienceleague.adobe.com/D3wg-eUkV7-ci9tbK2QK-uNaZBSj8e481WYc-XZr7KA
+TQID: 'https://experienceleague.adobe.com/D3wg-eUkV7-ci9tbK2QK-uNaZBSj8e481WYc-XZr7KA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Customer profiles
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1270
+source-wordcount: '1270'
 ht-degree: 73%
-
 ---
-
 # Descrição da interface{#interface-description}
 
 Com o Adobe Campaign você pode navegar por diferentes menus e telas para gerenciar suas campanhas.
@@ -77,7 +89,7 @@ Os princípios de navegação são:
 * O ícone do **Alternador de soluções** permite alternar entre suas organizações ou para um aplicativo diferente.
 * O ícone **[!UICONTROL Help]** está descrito [abaixo](#help).
 * O ícone **Notifications** exibe os alertas ou as informações mais recentes.
-* O ícone **User** permite exibir informações vinculadas ao seu perfil. Use este ícone se precisar **[!UICONTROL Sign out]**.
+* O ícone **Usuário** permite exibir informações vinculadas ao seu perfil. Use este ícone se precisar **[!UICONTROL Sign out]**.
 
 ### Ajuda {#help}
 
@@ -93,7 +105,7 @@ Três guias ajudam a encontrar ajuda e assistência:
    * um acesso rápido à documentação do Adobe Campaign Standard com links contextuais.
    * um link **[!UICONTROL Learning]** que permite acessar a biblioteca de cursos da Adobe Campaign.
    * um link **[!UICONTROL Community]** para acessar o fórum dedicado às suas perguntas no Campaign.
-   * um acesso direto a: Centro de ajuda, Atendimento ao cliente, status do produto Experience Cloud, conexão de desenvolvedores, Notas de versão, Planejamento de versão e a tela **[!UICONTROL About]**.
+   * um acesso direto a: Centro de ajuda, Atendimento ao cliente, status do produto da Experience Cloud, conexão de desenvolvedores, Notas de versão, Planejamento de versão e a tela **[!UICONTROL About]**.
 1. A guia **[!UICONTROL Support]** permite abrir um caso de suporte e entrar em contato conosco por telefone ou X (anteriormente conhecido como Twitter).
 1. A guia **[!UICONTROL Feedback]** facilita reportar problemas ou compartilhar suas ideias.
 

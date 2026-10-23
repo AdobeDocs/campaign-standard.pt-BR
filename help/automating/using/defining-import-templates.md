@@ -4,11 +4,15 @@ description: Os modelos de importação permitem reduzir as configurações nece
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 96%
-
 ---
 
 # Definição de modelos de importação{#defining-import-templates}

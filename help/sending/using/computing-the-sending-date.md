@@ -8,24 +8,34 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
-TQID: https://experienceleague.adobe.com/p90XYfq1xHy3wLT6XX8itIHZer0Ix3FS6aq2r2u2HhI
+TQID: 'https://experienceleague.adobe.com/p90XYfq1xHy3wLT6XX8itIHZer0Ix3FS6aq2r2u2HhI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Optimization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: '1072'
 ht-degree: 8%
-
 ---
-
 # Cálculo da data de envio{#computing-the-sending-date}
 
 Você pode definir uma fórmula para enviar a mensagem para cada recipient em uma data e hora específicas.
@@ -38,7 +48,7 @@ Quando os emails são enviados usando uma nova plataforma, os provedores de serv
 
 Para evitar ser marcado como spam, você pode aumentar progressivamente o volume enviado distribuindo grandes volumes de emails em diferentes horários. Isso deve garantir o desenvolvimento suave da fase de inicialização e permitir que você reduza a taxa geral de endereços inválidos.
 
-Por exemplo, você pode segmentar seu público-alvo aleatoriamente para enviar sua entrega em cinco lotes. Você enviará um primeiro lote representando 10% do público-alvo em 1º de junho às 10h, um segundo lote 24 horas depois com 15% do público-alvo e assim por diante.:00
+Por exemplo, você pode segmentar seu público-alvo aleatoriamente para enviar sua entrega em cinco lotes. Você enviará um primeiro lote representando 10% do público-alvo em 1º de junho às 10h, um segundo lote 24 horas depois com 15% do público-alvo e assim por diante.
 
 Você pode programar isso usando um workflow.
 
@@ -52,7 +62,7 @@ Você pode programar isso usando um workflow.
 
    * Preencha o campo **[!UICONTROL Segment code]**: insira manualmente a data e a hora desejadas para enviar a mensagem.
 
-     Por exemplo, você deseja enviar o primeiro lote em 1º de junho às 10:00 AM GMT+1. Use o seguinte formato: **`YYYY-MM-DD hh:mm:ss+tz`**.
+     Por exemplo, você deseja enviar o primeiro lote em 1º de junho às 10h GMT+1. Use o seguinte formato: **`YYYY-MM-DD hh:mm:ss+tz`**.
 
      ![](assets/send-time_opt_segment_configuration.png)
 
@@ -60,9 +70,9 @@ Você pode programar isso usando um workflow.
 
      Para os segmentos restantes, defina os próximos lotes da seguinte maneira:
 
-      * **2017-06-03 10:00:00+01**
-      * **2017-06-04 10:00:00+01**
-      * **2017-06-05 10:00:00+01**
+     * **2017-06-03 10:00:00+01**
+     * **2017-06-04 10:00:00+01**
+     * **2017-06-05 10:00:00+01**
 
    * Certifique-se de selecionar a opção **[!UICONTROL Limit the population of this segment]**.
 
@@ -128,10 +138,10 @@ Você pode programar isso usando um workflow.
 
    * Defina os códigos de segmento da seguinte maneira:
 
-      * 8H - 10H:00: **0**. :00A mensagem será enviada para o primeiro trimestre da população alvo às 8:00 AM (data de contato).
-      * 10:00 AM - 12:00 PM: **2**. A mensagem será enviada para o segundo trimestre da população alvo às 10:00 AM (data de contato + 2 horas).
-      * 14H - 16H: **6**. :00:00Sendo a central de atendimento fechada entre 12h00 e 14h00, a mensagem será enviada para o terceiro trimestre da população alvo às 14h00 (data de contato + 6 horas).:00:00:00
-      * 16H - 18H: **8**. :00:00A mensagem será enviada para o último trimestre da população alvo às 16:00 (data de contato + 8 horas).
+     * 8H ÀS 10H: **0**. A mensagem será enviada para o primeiro trimestre do público-alvo às 8h (data de contato).
+     * 10H - 12H: **2**. A mensagem será enviada para o segundo trimestre do público-alvo às 10h (data de contato + 2 horas).
+     * 14H - 16H: **6**. Sendo a central de atendimento fechada entre 12h e 14h, a mensagem será enviada para o terceiro trimestre da população do target às 14h (data de contato + 6 horas).
+     * 16H - 18H: **8**. A mensagem será enviada para o último trimestre da população do target às 16h (data de contato + 8 horas).
 
      >[!NOTE]
      >
@@ -149,7 +159,7 @@ Você pode programar isso usando um workflow.
 1. Selecione **[!UICONTROL Messages to be sent automatically on the date specified below]**.
 1. No campo **[!UICONTROL Start sending from]**, defina uma data de contato.
 
-   Neste exemplo, selecione 25 de maio às 8h.:00
+   Neste exemplo, selecione 25 de maio às 8h.
 
 1. No menu suspenso de otimização de tempo de envio, escolha **[!UICONTROL Send at a custom date defined by a formula]** e clique no botão **[!UICONTROL Edit an expression]**.
 
@@ -181,7 +191,7 @@ Você pode programar isso usando um workflow.
 
 1. Confirme para salvar a expressão. Confirme a programação, salve o delivery e execute o workflow.
 
-* O primeiro segmento receberá a mensagem na data de contato (25 de maio às 8h).:00
-* O segundo segmento receberá a mensagem duas horas depois (25 de maio às 10h).:00
-* O terceiro segmento receberá a mensagem seis horas depois (25 de maio às 14h).:00
-* O quarto segmento receberá a mensagem oito horas depois (25 de maio às 16h).:00
+* O primeiro segmento receberá a mensagem na data de contato (25 de maio às 8h).
+* O segundo segmento receberá a mensagem duas horas depois (25 de maio às 10h).
+* O terceiro segmento receberá a mensagem seis horas depois (25 de maio às 14h).
+* O quarto segmento receberá a mensagem oito horas depois (25 de maio às 16h).

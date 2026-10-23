@@ -6,13 +6,25 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1624'
 ht-degree: 89%
-
 ---
-
 # Configuração do canal SMS{#configuring-sms-channel}
 
 Para enviar mensagens SMS, uma ou várias contas externas devem ser configuradas por um administrador no menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL SMS]** > **[!UICONTROL SMS accounts]**.
@@ -302,8 +314,8 @@ A funcionalidade **[!UICONTROL Define a specific mapping of encodings]** permite
 
 * Quando a funcionalidade **[!UICONTROL Define a specific mapping of encodings]** não estiver selecionada, o conector assume um comportamento genérico:
 
-   * Ele tentará usar a codificação GSM para a qual atribui o valor **data_coding = 0**.
-   * Se a codificação GSM falhar, ele usará a codificação **UCS2** para a qual atribui o valor **data_coding = 8**.
+  * Ele tentará usar a codificação GSM para a qual atribui o valor **data_coding = 0**.
+  * Se a codificação GSM falhar, ele usará a codificação **UCS2** para a qual atribui o valor **data_coding = 8**.
 
   ![](assets/sms_data_coding.png)
 
@@ -349,6 +361,6 @@ Na seção **[!UICONTROL Send]** de um modelo SMS:
 
 * O campo **[!UICONTROL Transmission mode]** permite determinar o método de entrega das mensagens SMS:
 
-   * **[!UICONTROL Saved on SIM card]**: a mensagem é armazenada no cartão SIM do telefone do destinatário.
-   * **[!UICONTROL Saved on mobile]**: a mensagem é armazenada na memória interna do telefone.
-   * **[!UICONTROL Flash]**: a mensagem é exibida no celular do destinatário como uma notificação e depois desaparece sem ser salva.
+  * **[!UICONTROL Saved on SIM card]**: a mensagem é armazenada no cartão SIM do telefone do destinatário.
+  * **[!UICONTROL Saved on mobile]**: a mensagem é armazenada na memória interna do telefone.
+  * **[!UICONTROL Flash]**: a mensagem é exibida no celular do destinatário como uma notificação e depois desaparece sem ser salva.

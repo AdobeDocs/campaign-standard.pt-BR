@@ -9,27 +9,36 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
-TQID: https://experienceleague.adobe.com/UyKD0H4ffjVDfJRubitjN0pJs2DQbswTlOPNzvU6zLo
+TQID: 'https://experienceleague.adobe.com/UyKD0H4ffjVDfJRubitjN0pJs2DQbswTlOPNzvU6zLo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
 subfeature_v2:
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 475
-ht-degree: 60%
-
+source-wordcount: '475'
+ht-degree: 61%
 ---
-
 # Solução de problemas{#troubleshooting}
 
 Ocorreu algum problema com a capacidade de entrega? Encontre a solução aqui.
@@ -50,9 +59,9 @@ Se o problema persistir, entre em contato com os serviços comerciais, de entreg
 
 * **Qual é a diferença entre um endereço de email na inclui na lista de bloqueios e um endereço de email na quarentena?**
 
-   * O status **[!UICONTROL On denylist]** é resultado de um [loop de comentários](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=pt-BR#feedback-loops) (quando uma pessoa reporta uma mensagem como spam).
+  * O status **[!UICONTROL On denylist]** é resultado de um [loop de comentários](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=pt-BR#feedback-loops) (quando uma pessoa reporta uma mensagem como spam).
 
-   * O status **[!UICONTROL Quarantined]** é resultado de um salto suave ou forte.
+  * O status **[!UICONTROL Quarantined]** é resultado de um salto suave ou forte.
 
   Para obter mais informações, consulte esta [seção](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
@@ -66,15 +75,15 @@ Se o problema persistir, entre em contato com os serviços comerciais, de entreg
 
 * **Um dos meus recipients foi adicionado ao incluo na lista de bloqueios por engano. Como faço para removê-los da inclui na lista de bloqueios para que eu possa iniciar o envio de mensagens para eles novamente?**
 
-   * Vá para **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
-   * Nos detalhes do registro correspondente, defina o valor do campo **[!UICONTROL Status]** como **[!UICONTROL Valid]**.
-   * Salve o registro.
+  * Vá para **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
+  * Nos detalhes do registro correspondente, defina o valor do campo **[!UICONTROL Status]** como **[!UICONTROL Valid]**.
+  * Salve o registro.
 
 * **Como é possível descobrir se um dos IPs está na inclui na lista de bloqueios? Como remover meus IPs de uma lista de bloqueios?**
 
   Para verificar se o endereço IP está no arquivo de inclui na lista de bloqueios, é possível usar vários sites para verificá-lo, como:
-   * [MX Toolbox](https://mxtoolbox.com/)
-   * [Qual é meu endereço IP](https://whatismyipaddress.com)
+  * [MX Toolbox](https://mxtoolbox.com/)
+  * [Qual é meu endereço IP](https://whatismyipaddress.com)
 
   Geralmente, o resultado da verificação do endereço IP retorna uma lista que contém os detalhes do incluo na lista de bloqueios de pesquisa e também o nome do site que bloqueou o endereço IP.
 
