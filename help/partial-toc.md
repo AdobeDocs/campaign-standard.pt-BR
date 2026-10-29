@@ -9,7 +9,7 @@ product_v2:
   - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
     internal-label: Campaign Standard
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '37'
 ht-degree: 100%
 ---

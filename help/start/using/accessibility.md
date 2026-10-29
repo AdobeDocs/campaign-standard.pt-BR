@@ -27,9 +27,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Acessibilidade no Adobe Campaign Standard {#accessibility-acs}
 
@@ -45,11 +45,11 @@ O Adobe Campaign Standard fornece recursos que tornam sua utilização mais aces
 
 A interface do usuário do Adobe Campaign Standard se esforça para fornecer contraste suficiente no aplicativo e assim garantir uma experiência de exibição acessível para usuários com limitações visuais ou de percepção de cor.
 
-* Texto e cabeçalhos grandes foram aprimorados para atender a uma taxa de contraste de 3:1.
+* Texto e títulos grandes foram aprimorados para atender a uma proporção de contraste de 3:1.
 
   ![](assets/accessibility_2.png)
 
-* O conteúdo de ajuda e o texto do corpo do aplicativo foram atualizados para atender a uma taxa de contraste de 4.5:1.
+* O conteúdo de ajuda e o corpo de texto do aplicativo foram atualizados para atender a uma proporção de contraste de 4,5:1.
 
 * Os ícones de pausa e cancelamento de fluxos de trabalho foram atualizados para melhorar o contraste entre o plano de fundo e as cores do primeiro plano.
 
